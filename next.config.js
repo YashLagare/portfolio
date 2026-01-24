@@ -15,6 +15,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath: "/yash-lagare-portfolio",
   images: {
     unoptimized: true,
   },
