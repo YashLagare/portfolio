@@ -1,5 +1,6 @@
 'use client'
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import Tilt from "react-parallax-tilt";

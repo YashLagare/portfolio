@@ -42,12 +42,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/yash-lagare/",
+    url: "https://www.linkedin.com/in/yash-lagare-814b37299",
     icon: "FaLinkedin",
   },
   {
     name: "GitHub",
-    url: "https://www.linkedin.com/in/yash-lagare-814b37299",
+    url: "https://github.com/YashLagare",
     icon: "FaGithub",
   },
   {
