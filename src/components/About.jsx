@@ -1,6 +1,5 @@
 'use client'
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import Tilt from "react-parallax-tilt";
@@ -40,10 +39,6 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
-  const router = useRouter();
-  const basePath = router.basePath || '';
-  const resumePath = `${basePath}/resume/Yash_Lagare_Resume.pdf`;
-
   return (
     <>
       <div className='relative overflow-hidden lg:overflow-visible'>
@@ -62,7 +57,7 @@ const About = () => {
           className='mt-8'
         >
           <a
-            href={resumePath}
+            href="/resume/Yash_Lagare_Resume.pdf"
             download="Yash_Lagare_Resume.pdf"
             className='inline-flex items-center gap-3 px-6 py-3 font-semibold text-white rounded-lg border-2 border-secondary text-[#915EFF] shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105'
           >
