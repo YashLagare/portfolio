@@ -41,7 +41,7 @@ const Contact = () => {
       return false;
     }
     if (!nameRegex.test(name)) {
-      toast.error("Name can only contain letters and spaces ❌");
+      toast.error("Name can only contain letters and spaces");
       return false;
     }
     return true;
