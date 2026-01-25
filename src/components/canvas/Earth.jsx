@@ -6,7 +6,23 @@ import { Suspense } from "react";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF(`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/planet/scene.gltf`);
+  // Detect the base path dynamically at runtime
+  const getModelPath = () => {
+    if (typeof window === 'undefined') {
+      return '/planet/scene.gltf';
+    }
+    
+    const pathname = window.location.pathname;
+    // Check if we're on GitHub Pages (contains yash-lagare-portfolio in path)
+    if (pathname.includes('yash-lagare-portfolio')) {
+      return '/yash-lagare-portfolio/planet/scene.gltf';
+    }
+    // Local development or main domain
+    return '/planet/scene.gltf';
+  };
+
+  const modelPath = getModelPath();
+  const earth = useGLTF(modelPath);
 
   return (
     <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
