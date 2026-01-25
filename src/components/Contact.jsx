@@ -17,6 +17,13 @@ const Contact = () => {
     message: "",
   });
 
+  const [errors, setErrors] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -27,79 +34,88 @@ const Contact = () => {
       ...form,
       [name]: value,
     });
+
+    // Clear error for this field when user starts typing
+    setErrors({
+      ...errors,
+      [name]: "",
+    });
   };
 
-  // Validation functions
+  // Validation functions - returns error message or empty string
   const validateName = (name) => {
     const nameRegex = /^[a-zA-Z\s]+$/;
     if (!name.trim()) {
-      toast.error("Name field cannot be empty 🥺");
-      return false;
+      return "Name field cannot be empty";
     }
     if (name.length < 3) {
-      toast.error("Name must be at least 3 characters long 📝");
-      return false;
+      return "Name must be at least 3 characters long";
     }
     if (!nameRegex.test(name)) {
-      toast.error("Name can only contain letters and spaces");
-      return false;
+      return "Name can only contain letters and spaces";
     }
-    return true;
+    return "";
   };
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email.trim()) {
-      toast.error("Email field cannot be empty 🥺");
-      return false;
+      return "Email field cannot be empty";
     }
     if (!emailRegex.test(email)) {
-      toast.error("Please enter a valid email address 📧");
-      return false;
+      return "Please enter a valid email address";
     }
-    return true;
+    return "";
   };
 
   const validateSubject = (subject) => {
     if (!subject.trim()) {
-      toast.error("Subject field cannot be empty 🥺");
-      return false;
+      return "Subject field cannot be empty";
     }
     if (subject.trim().length < 3) {
-      toast.error("Subject must be at least 3 characters long 📝");
-      return false;
+      return "Subject must be at least 3 characters long";
     }
     if (subject.trim().length > 100) {
-      toast.error("Subject must not exceed 100 characters 📝");
-      return false;
+      return "Subject must not exceed 100 characters";
     }
-    return true;
+    return "";
   };
 
   const validateMessage = (message) => {
     if (!message.trim()) {
-      toast.error("Message field cannot be empty 🥺");
-      return false;
+      return "Message field cannot be empty";
     }
     if (message.trim().length < 10) {
-      toast.error("Message must be at least 10 characters long 📝");
-      return false;
+      return "Message must be at least 10 characters long";
     }
     if (message.trim().length > 5000) {
-      toast.error("Message must not exceed 5000 characters 📝");
-      return false;
+      return "Message must not exceed 5000 characters";
     }
-    return true;
+    return "";
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Validate all fields
-    if (!validateName(form.name)) return;
-    if (!validateEmail(form.email)) return;
-    if (!validateSubject(form.subject)) return;
-    if (!validateMessage(form.message)) return;
+    // Validate all fields and collect errors
+    const nameError = validateName(form.name);
+    const emailError = validateEmail(form.email);
+    const subjectError = validateSubject(form.subject);
+    const messageError = validateMessage(form.message);
+
+    const newErrors = {
+      name: nameError,
+      email: emailError,
+      subject: subjectError,
+      message: messageError,
+    };
+
+    setErrors(newErrors);
+
+    // If any errors, don't proceed
+    if (nameError || emailError || subjectError || messageError) {
+      return;
+    }
     
     setLoading(true);
     try {
@@ -161,8 +177,13 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
+                errors.name ? "ring-2 ring-red-500" : ""
+              }`}
             />
+            {errors.name && (
+              <span className='text-red-500 text-sm mt-2'>{errors.name}</span>
+            )}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your email</span>
@@ -172,8 +193,13 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
+                errors.email ? "ring-2 ring-red-500" : ""
+              }`}
             />
+            {errors.email && (
+              <span className='text-red-500 text-sm mt-2'>{errors.email}</span>
+            )}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Subject</span>
@@ -183,8 +209,13 @@ const Contact = () => {
               value={form.subject}
               onChange={handleChange}
               placeholder="What's this about?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
+                errors.subject ? "ring-2 ring-red-500" : ""
+              }`}
             />
+            {errors.subject && (
+              <span className='text-red-500 text-sm mt-2'>{errors.subject}</span>
+            )}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
@@ -194,8 +225,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
+                errors.message ? "ring-2 ring-red-500" : ""
+              }`}
             />
+            {errors.message && (
+              <span className='text-red-500 text-sm mt-2'>{errors.message}</span>
+            )}
           </label>
 
           <button
