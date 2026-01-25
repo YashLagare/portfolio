@@ -29,13 +29,77 @@ const Contact = () => {
     });
   };
 
+  // Validation functions
+  const validateName = (name) => {
+    const nameRegex = /^[a-zA-Z\s]+$/;
+    if (!name.trim()) {
+      toast.error("Name field cannot be empty 🥺");
+      return false;
+    }
+    if (name.length < 3) {
+      toast.error("Name must be at least 3 characters long 📝");
+      return false;
+    }
+    if (!nameRegex.test(name)) {
+      toast.error("Name can only contain letters and spaces ❌");
+      return false;
+    }
+    return true;
+  };
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.trim()) {
+      toast.error("Email field cannot be empty 🥺");
+      return false;
+    }
+    if (!emailRegex.test(email)) {
+      toast.error("Please enter a valid email address 📧");
+      return false;
+    }
+    return true;
+  };
+
+  const validateSubject = (subject) => {
+    if (!subject.trim()) {
+      toast.error("Subject field cannot be empty 🥺");
+      return false;
+    }
+    if (subject.trim().length < 3) {
+      toast.error("Subject must be at least 3 characters long 📝");
+      return false;
+    }
+    if (subject.trim().length > 100) {
+      toast.error("Subject must not exceed 100 characters 📝");
+      return false;
+    }
+    return true;
+  };
+
+  const validateMessage = (message) => {
+    if (!message.trim()) {
+      toast.error("Message field cannot be empty 🥺");
+      return false;
+    }
+    if (message.trim().length < 10) {
+      toast.error("Message must be at least 10 characters long 📝");
+      return false;
+    }
+    if (message.trim().length > 5000) {
+      toast.error("Message must not exceed 5000 characters 📝");
+      return false;
+    }
+    return true;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    if (!form.name || !form.email || !form.subject || !form.message) {
-      toast.error("Please fill all the fields🥺👉👈");
-      return;
-    }
+    // Validate all fields
+    if (!validateName(form.name)) return;
+    if (!validateEmail(form.email)) return;
+    if (!validateSubject(form.subject)) return;
+    if (!validateMessage(form.message)) return;
     
     setLoading(true);
     try {
