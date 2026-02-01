@@ -13,9 +13,9 @@ const Earth = () => {
     }
     
     const pathname = window.location.pathname;
-    // Check if we're on GitHub Pages (contains yash-lagare-portfolio in path)
-    if (pathname.includes('yash-lagare-portfolio')) {
-      return '/yash-lagare-portfolio/planet/scene.gltf';
+    // Check if we're on GitHub Pages (contains portfolio in path)
+    if (pathname.includes('portfolio')) {
+      return '/portfolio/planet/scene.gltf';
     }
     // Local development or main domain
     return '/planet/scene.gltf';

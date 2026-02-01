@@ -15,12 +15,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/yash-lagare-portfolio",
+  basePath: "/portfolio",
   images: {
     unoptimized: true,
   },
   env: {
-    NEXT_PUBLIC_BASE_PATH: "/yash-lagare-portfolio",
+    NEXT_PUBLIC_BASE_PATH: "/portfolio",
   },
 };
 
