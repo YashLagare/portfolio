@@ -57,7 +57,7 @@ const About = () => {
           className='mt-8'
         >
           <a
-            href="/yash-lagare-portfolio/resume/Yash_Lagare_Resume.pdf"
+            href="/portfolio/resume/Yash_Lagare_Resume.pdf"
             download="Yash_Lagare_Resume.pdf"
             className='inline-flex items-center gap-3 px-6 py-3 font-semibold text-white rounded-lg border-2 border-secondary text-[#915EFF] shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105'
           >
