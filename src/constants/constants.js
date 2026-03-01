@@ -18,7 +18,7 @@ import {
   tailwind,
   Twitter,
   typescript,
-  web
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -161,34 +161,6 @@ const technologies = [
 
 const projects = [
   {
-    name: "DevScreen",
-    description:
-      "DevScreen is a full-stack online interview platform built using the MERN stack, designed to streamline technical interviews with secure authentication and real-time communication. The platform uses Clerk for robust user authentication and Stream Chat for real-time messaging between candidates and interviewers. Scalable backend APIs were developed with Express and Mongoose to manage users, interviews, and chat workflows. React Query and Axios enable efficient data fetching, while a clean, responsive UI ensures a smooth experience across devices. Automated workflows powered by Inngest improve system reliability and overall performance.",
-    features: [
-      "Secure authentication and user management using Clerk.",
-      "Real-time chat and communication powered by Stream Chat.",
-      "Role-based workflows for candidates and interviewers.",
-      "Scalable backend APIs for interviews, users, and messaging.",
-      "Optimized data fetching using React Query and Axios.",
-      "Clean, fully responsive UI for seamless interview experiences.",
-      "Automated background workflows using Inngest for improved reliability.",
-    ],
-    tags: [
-      { name: "React", color: "blue-text-gradient" },
-      { name: "NodeJs", color: "green-text-gradient" },
-      { name: "ExpressJs", color: "pink-text-gradient" },
-      { name: "MongoDB", color: "orange-text-gradient" },
-      { name: "Clerk", color: "blue-text-gradient" },
-      { name: "Stream Chat", color: "green-text-gradient" },
-      { name: "React Query", color: "pink-text-gradient" },
-      { name: "Inngest", color: "orange-text-gradient" },
-    ],
-    image: Devscreen,
-    source_code_link: "https://github.com/YashLagare/Online-interview-platform",
-    live_link: "https://online-interview-platform-32e2k.sevalla.app/",
-  },
-
-  {
     name: "QuickBite",
     description:
       "QuickBite is a production-style full-stack food ordering and delivery platform built using the MERN stack, designed around a real-world multi-role ecosystem (User, Shop Owner, Delivery Partner). The system implements secure JWT authentication via HTTP-only cookies, real-time order broadcasting and tracking using Socket.IO, Razorpay payment verification with server-side signature validation, and geo-based shop filtering using 2dsphere indexing. It follows a modular MVC backend architecture with role-based authorization, scalable folder structuring, and Redux Toolkit with state persistence on the frontend. This project reflects my ability to design and implement complex, real-time, multi-actor systems beyond standard CRUD applications.",
@@ -239,6 +211,34 @@ const projects = [
     image: quickbite,
     source_code_link: "https://github.com/YashLagare/QuickBite",
     live_link: "https://quickbite-9jda.onrender.com",
+  },
+
+  {
+    name: "DevScreen",
+    description:
+      "DevScreen is a full-stack online interview platform built using the MERN stack, designed to streamline technical interviews with secure authentication and real-time communication. The platform uses Clerk for robust user authentication and Stream Chat for real-time messaging between candidates and interviewers. Scalable backend APIs were developed with Express and Mongoose to manage users, interviews, and chat workflows. React Query and Axios enable efficient data fetching, while a clean, responsive UI ensures a smooth experience across devices. Automated workflows powered by Inngest improve system reliability and overall performance.",
+    features: [
+      "Secure authentication and user management using Clerk.",
+      "Real-time chat and communication powered by Stream Chat.",
+      "Role-based workflows for candidates and interviewers.",
+      "Scalable backend APIs for interviews, users, and messaging.",
+      "Optimized data fetching using React Query and Axios.",
+      "Clean, fully responsive UI for seamless interview experiences.",
+      "Automated background workflows using Inngest for improved reliability.",
+    ],
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "ExpressJs", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "orange-text-gradient" },
+      { name: "Clerk", color: "blue-text-gradient" },
+      { name: "Stream Chat", color: "green-text-gradient" },
+      { name: "React Query", color: "pink-text-gradient" },
+      { name: "Inngest", color: "orange-text-gradient" },
+    ],
+    image: Devscreen,
+    source_code_link: "https://github.com/YashLagare/Online-interview-platform",
+    live_link: "https://online-interview-platform-32e2k.sevalla.app/",
   },
 
   {
