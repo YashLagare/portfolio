@@ -238,7 +238,7 @@ const projects = [
     ],
     image: quickbite,
     source_code_link: "https://github.com/YashLagare/QuickBite",
-    live_link: "https://portfolio-five-opal-53.vercel.app/",
+    live_link: "https://quickbite-9jda.onrender.com",
   },
 
   {
