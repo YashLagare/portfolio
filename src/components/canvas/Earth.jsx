@@ -6,22 +6,8 @@ import { Suspense } from "react";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  // Detect the base path dynamically at runtime
-  const getModelPath = () => {
-    if (typeof window === 'undefined') {
-      return '/planet/scene.gltf';
-    }
-    
-    const pathname = window.location.pathname;
-    // Check if we're on GitHub Pages (contains portfolio in path)
-    if (pathname.includes('portfolio')) {
-      return '/portfolio/planet/scene.gltf';
-    }
-    // Local development or main domain
-    return '/planet/scene.gltf';
-  };
-
-  const modelPath = getModelPath();
+  // simple model path for any environment; remove GitHub pages base path logic
+  const modelPath = '/planet/scene.gltf';
   const earth = useGLTF(modelPath);
 
   return (

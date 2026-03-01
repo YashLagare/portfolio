@@ -14,13 +14,16 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/portfolio",
+  // remove static export and basePath when deploying to Vercel
+  reactStrictMode: true,
   images: {
-    unoptimized: true,
+    // You can configure remotePatterns or other options as needed
   },
   env: {
-    NEXT_PUBLIC_BASE_PATH: "/portfolio",
+    // expose only the variables your app actually needs
+    TEMPLATE_ID: process.env.TEMPLATE_ID,
+    SERVICE_ID: process.env.SERVICE_ID,
+    PUBLIC_KEY: process.env.PUBLIC_KEY,
   },
 };
 
