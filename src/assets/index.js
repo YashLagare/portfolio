@@ -32,10 +32,11 @@ import chatzy from "./4.1.png";
 import Twitter from "./6.4.png";
 import Ecom from "./7.4.png";
 import Devscreen from "./8.1.png";
+import quickbite from "./quickbite.png";
 
 export {
   backend, chatzy, close, creator, css, Devscreen, docker, Ecom, express, figma, git, github, html, java, javascript, jwt, logo, menu, mobile, mongodb, neosao, nextauth, nextjs, nodejs,
-  reactjs,
+  quickbite, reactjs,
   redux, tailwind, threejs, Twitter, typescript, web
 };
 
