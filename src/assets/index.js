@@ -27,7 +27,6 @@ import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
 import neosao from "../assets/company/neosao.png";
-import meta from "./company/meta.png";
 
 import chatzy from "./4.1.png";
 import Twitter from "./6.4.png";
@@ -35,7 +34,7 @@ import Ecom from "./7.4.png";
 import Devscreen from "./8.1.png";
 
 export {
-  backend, chatzy, close, creator, css, Devscreen, docker, Ecom, express, figma, git, github, html, java, javascript, jwt, logo, menu, meta, mobile, mongodb, neosao, nextauth, nextjs, nodejs,
+  backend, chatzy, close, creator, css, Devscreen, docker, Ecom, express, figma, git, github, html, java, javascript, jwt, logo, menu, mobile, mongodb, neosao, nextauth, nextjs, nodejs,
   reactjs,
   redux, tailwind, threejs, Twitter, typescript, web
 };
