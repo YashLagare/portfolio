@@ -238,7 +238,7 @@ const projects = [
     ],
     image: Devscreen,
     source_code_link: "https://github.com/YashLagare/Online-interview-platform",
-    live_link: "https://online-interview-platform-32e2k.sevalla.app/",
+    live_link: "https://online-interview-platform-r8d4.onrender.com",
   },
 
   {
