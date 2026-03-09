@@ -1,8 +1,8 @@
 'use client'
 import { motion } from "framer-motion";
 import {
-    VerticalTimeline,
-    VerticalTimelineElement,
+  VerticalTimeline,
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -13,8 +13,13 @@ import { SectionWrapper } from "./hoc";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
+    // contentStyle={{
+    //   background: "#1d1836",
+    //   color: "#fff",
+    // }}
     contentStyle={{
-      background: "#1d1836",
+      background: "linear-gradient(#1d1836, #1d1836) padding-box, linear-gradient(to right, #915EFF, #f272c8) border-box",
+      border: "1px solid transparent",
       color: "#fff",
     }}
     contentArrowStyle={{ borderRight: "7px solid  #232631" }}
