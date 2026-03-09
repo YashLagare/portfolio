@@ -8,6 +8,7 @@ import {
   git,
   html,
   javascript,
+  MERN,
   mobile,
   mongodb,
   neosao,
@@ -338,38 +339,17 @@ const projects = [
 const certificates = [
   {
     title: "Meta Front-End Developer Certificate",
-    issuer: "Meta (Coursera)",
-    date: "Month Year", // e.g. "June 2024"
-    credential_url: "https://www.coursera.org/account/accomplishments/...",
-    image: null, // replace with: import certMeta from "../assets/cert-meta.png"
+    issuer: "30dc.graphy.com",
+    date: "November 2025",
+    credential_url: "https://30dc.graphy.com/share-certificate?serialno=N3NS5WJH",
+    image: MERN,
     tags: [
       { name: "React", color: "blue-text-gradient" },
-      { name: "JavaScript", color: "green-text-gradient" },
-      { name: "HTML & CSS", color: "pink-text-gradient" },
-    ],
-  },
-  {
-    title: "The Complete Node.js Developer Course",
-    issuer: "Udemy",
-    date: "Month Year",
-    credential_url: "https://www.udemy.com/certificate/...",
-    image: null,
-    tags: [
+      { name: "Express", color: "orange-text-gradient" },
       { name: "NodeJs", color: "green-text-gradient" },
-      { name: "ExpressJs", color: "pink-text-gradient" },
-      { name: "MongoDB", color: "orange-text-gradient" },
-    ],
-  },
-  {
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "Month Year",
-    credential_url: "https://freecodecamp.org/certification/...",
-    image: null,
-    tags: [
-      { name: "JavaScript", color: "blue-text-gradient" },
-      { name: "Algorithms", color: "green-text-gradient" },
-      { name: "DSA", color: "orange-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "JavaScript", color: "green-text-gradient" },
+      { name: "HTML & CSS", color: "blue-text-gradient" },
     ],
   },
   // Add more certificates here following the same structure...

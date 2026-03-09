@@ -1,12 +1,15 @@
 'use client'
+
 import { motion } from "framer-motion";
+import Image from "next/image";
+import color_sharp from "../assets/color_sharp.png";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import Image from "next/image";
 import { experiences } from "../constants/constants";
 import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "./hoc";
@@ -69,6 +72,8 @@ const Experience = () => {
           Work Experience.
         </h2>
       </motion.div>
+
+       <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 -left-60 w-screen -top-20" />
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
