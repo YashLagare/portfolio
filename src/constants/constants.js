@@ -340,7 +340,7 @@ const certificates = [
   {
     title: "Full-stack Developer Certificate",
     issuer: "30dc.graphy.com",
-    date: "November 2025",
+    date: "13 November 2025",
     credential_url: "https://30dc.graphy.com/share-certificate?serialno=N3NS5WJH",
     image: MERN,
     tags: [
