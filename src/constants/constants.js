@@ -338,7 +338,7 @@ const projects = [
 
 const certificates = [
   {
-    title: "Meta Front-End Developer Certificate",
+    title: "Full-stack Developer Certificate",
     issuer: "30dc.graphy.com",
     date: "November 2025",
     credential_url: "https://30dc.graphy.com/share-certificate?serialno=N3NS5WJH",
@@ -348,6 +348,7 @@ const certificates = [
       { name: "Express", color: "orange-text-gradient" },
       { name: "NodeJs", color: "green-text-gradient" },
       { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "TailwindCSS", color: "orange-text-gradient" },
       { name: "JavaScript", color: "green-text-gradient" },
       { name: "HTML & CSS", color: "blue-text-gradient" },
     ],
