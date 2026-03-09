@@ -35,6 +35,10 @@ export const navLinks = [
     title: "Projects",
   },
   {
+    id: "certificates",
+    title: "Certificates",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -331,6 +335,46 @@ const projects = [
   },
 ];
 
+const certificates = [
+  {
+    title: "Meta Front-End Developer Certificate",
+    issuer: "Meta (Coursera)",
+    date: "Month Year", // e.g. "June 2024"
+    credential_url: "https://www.coursera.org/account/accomplishments/...",
+    image: null, // replace with: import certMeta from "../assets/cert-meta.png"
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "JavaScript", color: "green-text-gradient" },
+      { name: "HTML & CSS", color: "pink-text-gradient" },
+    ],
+  },
+  {
+    title: "The Complete Node.js Developer Course",
+    issuer: "Udemy",
+    date: "Month Year",
+    credential_url: "https://www.udemy.com/certificate/...",
+    image: null,
+    tags: [
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "ExpressJs", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "orange-text-gradient" },
+    ],
+  },
+  {
+    title: "JavaScript Algorithms and Data Structures",
+    issuer: "freeCodeCamp",
+    date: "Month Year",
+    credential_url: "https://freecodecamp.org/certification/...",
+    image: null,
+    tags: [
+      { name: "JavaScript", color: "blue-text-gradient" },
+      { name: "Algorithms", color: "green-text-gradient" },
+      { name: "DSA", color: "orange-text-gradient" },
+    ],
+  },
+  // Add more certificates here following the same structure...
+];
+
 const experiences = [
   // {
   //   title: "React.js Developer",
@@ -398,7 +442,7 @@ const experiences = [
 // ];
 
 export {
-  experiences,
+  certificates, experiences,
   //  testimonials,
   projects,
   services,

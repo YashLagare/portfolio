@@ -6,7 +6,6 @@ import { Suspense } from "react";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  // simple model path for any environment; remove GitHub pages base path logic
   const modelPath = '/planet/scene.gltf';
   const earth = useGLTF(modelPath);
 
