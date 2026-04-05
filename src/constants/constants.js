@@ -197,6 +197,7 @@ const projects = [
       { name: "Clerk", color: "blue-text-gradient" },
       { name: "ImageKit", color: "orange-text-gradient" },
       { name: "Tailwind CSS", color: "green-text-gradient" },
+      { name: "shadcn", color: "orange-text-gradient" },
     ],
 
     image: PixelForge,
