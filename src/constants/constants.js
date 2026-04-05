@@ -14,6 +14,7 @@ import {
   neosao,
   nextjs,
   nodejs,
+  PixelForge,
   quickbite,
   reactjs,
   tailwind,
@@ -166,56 +167,36 @@ const technologies = [
 
 const projects = [
   {
-    name: "QuickBite",
+    name: "PixelForge AI Studio",
     description:
-      "QuickBite is a production-style full-stack food ordering and delivery platform built using the MERN stack, designed around a real-world multi-role ecosystem (User, Shop Owner, Delivery Partner). The system implements secure JWT authentication via HTTP-only cookies, real-time order broadcasting and tracking using Socket.IO, Razorpay payment verification with server-side signature validation, and geo-based shop filtering using 2dsphere indexing. It follows a modular MVC backend architecture with role-based authorization, scalable folder structuring, and Redux Toolkit with state persistence on the frontend. This project reflects my ability to design and implement complex, real-time, multi-actor systems beyond standard CRUD applications.",
+      "PixelForge AI Studio is a full-stack AI-powered image restyling platform built using Next.js, where a significant portion of development was accelerated using advanced prompt engineering techniques. By leveraging AI-assisted development workflows, complex features such as API integrations, UI structuring, and logic scaffolding were rapidly prototyped and refined. The platform transforms user-uploaded images into high-quality artistic outputs using OpenAI’s image models, with dynamically engineered prompts ensuring consistent and visually appealing results. It integrates Clerk for authentication, ImageKit for image handling, and PostgreSQL with Drizzle ORM for scalable data management, delivering a modern and production-ready AI creative studio.",
+
     features: [
-      "Multi-role architecture (User, Owner, Delivery Partner) with role-based protected routes.",
-      "Secure JWT authentication stored in HTTP-only cookies with middleware-based verification.",
-      "Real-time order lifecycle updates (Pending → Preparing → Out for Delivery → Delivered) using Socket.IO.",
-      "Razorpay integration with backend signature verification for secure online payments.",
-      "Geo-location based shop discovery using MongoDB 2dsphere indexing.",
-      "Cloudinary-based image upload pipeline using Multer middleware.",
-      "Redux Toolkit with persistence for cart, session, and state synchronization.",
-      "Modular MVC backend with clear separation of routes, controllers, models, and middleware.",
+      "AI-assisted development workflow using advanced prompt engineering.",
+      "AI-powered image transformation using OpenAI GPT Image models.",
+      "Dynamic prompt generation for consistent style outputs.",
+      "Upload and restyle images into multiple presets (Anime, 3D, Clay, etc.).",
+      "Secure authentication using Clerk.",
+      "Optimized image handling with ImageKit.",
+      "Generation history tracking with PostgreSQL and Drizzle ORM.",
+      "Quota-based system with Free, Pro, and Studio tiers.",
+      "Real-time preview system for images.",
+      "Responsive UI built with Next.js and Tailwind CSS.",
     ],
+
     tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NodeJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ExpressJs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Socket.io",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ReduxToolkit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Razorpay",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Cloudinary",
-        color: "orange-text-gradient",
-      },
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Node.js", color: "pink-text-gradient" },
+      { name: "PostgreSQL", color: "orange-text-gradient" },
+      { name: "OpenAI", color: "green-text-gradient" },
+      { name: "Prompt Engineering", color: "pink-text-gradient" },
+      { name: "AI-Assisted Development", color: "blue-text-gradient" },
     ],
-    image: quickbite,
-    source_code_link: "https://github.com/YashLagare/QuickBite",
-    live_link: "https://quickbite-9jda.onrender.com",
+
+    image: PixelForge,
+    source_code_link: "https://github.com/YashLagare/pixelForge",
+    live_link: "https://pixel-forge-zeta.vercel.app/",
   },
 
   {
@@ -284,6 +265,59 @@ const projects = [
   },
 
   {
+    name: "QuickBite",
+    description:
+      "QuickBite is a production-style full-stack food ordering and delivery platform built using the MERN stack, designed around a real-world multi-role ecosystem (User, Shop Owner, Delivery Partner). The system implements secure JWT authentication via HTTP-only cookies, real-time order broadcasting and tracking using Socket.IO, Razorpay payment verification with server-side signature validation, and geo-based shop filtering using 2dsphere indexing. It follows a modular MVC backend architecture with role-based authorization, scalable folder structuring, and Redux Toolkit with state persistence on the frontend. This project reflects my ability to design and implement complex, real-time, multi-actor systems beyond standard CRUD applications.",
+    features: [
+      "Multi-role architecture (User, Owner, Delivery Partner) with role-based protected routes.",
+      "Secure JWT authentication stored in HTTP-only cookies with middleware-based verification.",
+      "Real-time order lifecycle updates (Pending → Preparing → Out for Delivery → Delivered) using Socket.IO.",
+      "Razorpay integration with backend signature verification for secure online payments.",
+      "Geo-location based shop discovery using MongoDB 2dsphere indexing.",
+      "Cloudinary-based image upload pipeline using Multer middleware.",
+      "Redux Toolkit with persistence for cart, session, and state synchronization.",
+      "Modular MVC backend with clear separation of routes, controllers, models, and middleware.",
+    ],
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReduxToolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Razorpay",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: quickbite,
+    source_code_link: "https://github.com/YashLagare/QuickBite",
+    live_link: "https://quickbite-9jda.onrender.com",
+  },
+
+  {
     name: "E-Com Store",
     description:
       "E-Com Store is a full-stack e-commerce web application built to deliver a secure and seamless online shopping experience. The platform supports user authentication, product browsing, cart management, and secure checkout. It follows a scalable MERN-based architecture with RESTful APIs and a responsive UI for smooth usage across devices.",
@@ -341,7 +375,8 @@ const certificates = [
     title: "Full-stack Developer Certificate",
     issuer: "30dc.graphy.com",
     date: "13 November 2025",
-    credential_url: "https://30dc.graphy.com/share-certificate?serialno=N3NS5WJH",
+    credential_url:
+      "https://30dc.graphy.com/share-certificate?serialno=N3NS5WJH",
     image: MERN,
     tags: [
       { name: "React", color: "blue-text-gradient" },
@@ -423,7 +458,8 @@ const experiences = [
 // ];
 
 export {
-  certificates, experiences,
+  certificates,
+  experiences,
   //  testimonials,
   projects,
   services,
