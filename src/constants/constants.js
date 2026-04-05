@@ -169,35 +169,45 @@ const projects = [
   {
     name: "PixelForge AI Studio",
     description:
-      "PixelForge AI Studio is a full-stack AI-powered image restyling platform built using Next.js, where a significant portion of development was accelerated using advanced prompt engineering techniques. By leveraging AI-assisted development workflows, complex features such as API integrations, UI structuring, and logic scaffolding were rapidly prototyped and refined. The platform transforms user-uploaded images into high-quality artistic outputs using OpenAI’s image models, with dynamically engineered prompts ensuring consistent and visually appealing results. It integrates Clerk for authentication, ImageKit for image handling, and PostgreSQL with Drizzle ORM for scalable data management, delivering a modern and production-ready AI creative studio.",
+      "PixelForge AI Studio is a full-stack AI-powered image restyling platform built with Next.js and TypeScript, designed to transform user-uploaded images into high-quality artistic outputs using OpenAI’s image models. The project leverages AI-assisted development and advanced prompt engineering to accelerate feature development while maintaining strong type safety and scalability. TypeScript is used across the application to enforce strict typing for API contracts, database models, and application state, improving reliability and maintainability. The platform features a modern studio interface with curated style presets, along with secure authentication via Clerk, optimized image handling using ImageKit, and scalable data management with PostgreSQL and Drizzle ORM.",
 
     features: [
-      "AI-assisted development workflow using advanced prompt engineering.",
+      "Built with TypeScript for strong type safety across frontend and backend.",
+      "AI-assisted development using advanced prompt engineering.",
       "AI-powered image transformation using OpenAI GPT Image models.",
-      "Dynamic prompt generation for consistent style outputs.",
+      "Dynamic prompt generation for consistent artistic outputs.",
       "Upload and restyle images into multiple presets (Anime, 3D, Clay, etc.).",
-      "Secure authentication using Clerk.",
-      "Optimized image handling with ImageKit.",
+      "Secure authentication and session management using Clerk.",
+      "Optimized image upload and delivery using ImageKit.",
       "Generation history tracking with PostgreSQL and Drizzle ORM.",
-      "Quota-based system with Free, Pro, and Studio tiers.",
-      "Real-time preview system for images.",
-      "Responsive UI built with Next.js and Tailwind CSS.",
+      "Quota-based usage system with Free, Pro, and Studio tiers.",
+      "Real-time preview system for uploaded and generated images.",
+      "Responsive UI built with Next.js, Tailwind CSS, and Radix UI.",
     ],
 
     tags: [
       { name: "Next.js", color: "blue-text-gradient" },
+      { name: "TypeScript", color: "blue-text-gradient" },
       { name: "React", color: "green-text-gradient" },
       { name: "Node.js", color: "pink-text-gradient" },
       { name: "PostgreSQL", color: "orange-text-gradient" },
+      { name: "Drizzle ORM", color: "blue-text-gradient" },
       { name: "OpenAI", color: "green-text-gradient" },
       { name: "Prompt Engineering", color: "pink-text-gradient" },
-      { name: "AI-Assisted Development", color: "blue-text-gradient" },
+      { name: "Clerk", color: "blue-text-gradient" },
+      { name: "ImageKit", color: "orange-text-gradient" },
+      { name: "Tailwind CSS", color: "green-text-gradient" },
     ],
 
     image: PixelForge,
+
     source_code_link: "https://github.com/YashLagare/pixelForge",
     live_link: "https://pixel-forge-zeta.vercel.app/",
   },
+
+
+
+
 
   {
     name: "DevScreen",
