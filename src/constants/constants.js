@@ -206,10 +206,6 @@ const projects = [
     live_link: "https://pixel-forge-zeta.vercel.app/",
   },
 
-
-
-
-
   {
     name: "DevScreen",
     description:
