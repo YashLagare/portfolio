@@ -67,3 +67,50 @@ portfolio/
 ├── tailwind.config.js    # Tailwind configuration
 └── package.json          # Dependencies
 ```
+
+---
+
+## 📧 Email Setup (EmailJS)
+
+This portfolio uses **EmailJS** for handling contact form submissions. When someone fills out the contact form, their message is sent directly to your email.
+
+### Configuration Steps
+
+1. **Create an EmailJS Account**
+   - Visit [emailjs.com](https://www.emailjs.com/)
+   - Sign up and log in
+
+2. **Set Up Email Service**
+   - Go to **Email Services** and add your email provider (Gmail, Outlook, etc.)
+   - Get your `SERVICE_ID`
+
+3. **Create Email Template**
+   - Go to **Email Templates** and create a new template
+   - Add the following template variables:
+     - `{{from_name}}` - Sender's name
+     - `{{from_email}}` - Sender's email
+     - `{{subject}}` - Email subject
+     - `{{message}}` - Email message
+   - Get your `TEMPLATE_ID`
+
+4. **Get Public Key**
+   - Go to **Account** settings
+   - Copy your `PUBLIC_KEY`
+
+5. **Add Environment Variables**
+   - Create a `.env.local` file in the root directory:
+     ```
+     NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+     NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+     NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+     ```
+
+6. **Done!**
+   - The contact form is now ready to send emails
+   - Users can submit messages from the Contact section
+
+### How It Works
+
+- Form validation happens on the frontend (name, email, subject, message)
+- Upon valid submission, EmailJS sends the message to your configured email
+- Toast notifications confirm success or show errors

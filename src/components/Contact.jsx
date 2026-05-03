@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
+import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
@@ -119,36 +120,35 @@ const Contact = () => {
     
     setLoading(true);
     try {
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwoocNDNVl7wgd7e0EbAzPRnWyT_1MQfiUKin0-AYpSL-dRMn8PIyql3lsyvC6SKmzd/exec';
-      
-      const formData = new FormData();
-      formData.append('name', form.name);
-      formData.append('email', form.email);
-      formData.append('subject', form.subject);
-      formData.append('message', form.message);
-      
-      const response = await fetch(scriptURL, {
-        method: 'POST',
-        body: formData
-      });
+      const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+      const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
-      if (response.ok) {
-        setLoading(false);
-        toast.success("Message sent successfully! I'll get back to you soon🥰");
-        
-        setForm({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-      } else {
-        setLoading(false);
-        toast.error("Oops! Something went wrong. Please try again😔");
+      if (!serviceID || !templateID || !publicKey) {
+        throw new Error("EmailJS environment variables are not configured.");
       }
+
+      const templateParams = {
+        from_name: form.name,
+        from_email: form.email,
+        subject: form.subject,
+        message: form.message,
+      };
+
+      await emailjs.send(serviceID, templateID, templateParams, publicKey);
+
+      setLoading(false);
+      toast.success("Message sent successfully! I'll get back to you soon🥰");
+
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
     } catch (error) {
       setLoading(false);
-      console.error('Error:', error);
+      console.error("Error sending email via EmailJS:", error);
       toast.error("Oops! Something went wrong. Please try again😔");
     }
   };
