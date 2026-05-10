@@ -20,7 +20,7 @@ import {
   tailwind,
   Twitter,
   typescript,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -128,8 +128,12 @@ const technologies = [
     icon: mongodb,
   },
   // {
-  //   name: "Three JS",
-  //   icon: threejs,
+  //   name: "PostgreSQL",
+  //   icon: postgreSQL,
+  // },
+  // {
+  //   name: "Database",
+  //   icon: database,
   // },
   {
     name: "git",
