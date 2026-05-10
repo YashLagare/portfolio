@@ -426,13 +426,13 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Full stack Developer Intern",
+    title: "Frontend Developer Intern",
     company_name: "NeoSao Services Pvt. Ltd.",
     icon: neosao,
     iconBg: "#E6DEDD",
     date: "July 2025 - Present",
     points: [
-      "Contributing to real-world projects using the MERN stack, Next.js, and TypeScript in an agile team environment. Working across frontend and backend to build scalable, reusable components and full-stack features. Integrating REST APIs, managing application state, and delivering smooth, user-focused experiences. Developing and optimizing backend services using Node.js, Express, and MongoDB, including authentication flows and third-party integrations. Collaborating closely with designers and developers to maintain performance, code quality, and best practices while delivering production-ready features on tight timelines.",
+      "Frontend Developer Intern contributing to real-world client projects using React.js, Next.js, TypeScript, and Tailwind CSS in an agile team environment. Building responsive and reusable frontend components, integrating REST APIs, and improving user experience through optimized frontend performance and clean UI implementation. Collaborating closely with developers and designers to deliver production-ready features while following modern development practices, code quality standards, and Git-based workflows.",
     ],
   },
 ];
