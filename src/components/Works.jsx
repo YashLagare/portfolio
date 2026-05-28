@@ -135,7 +135,7 @@ const Works = () => {
           >
             These projects highlight my hands-on experience by solving real-world problems using modern technologies. Each project includes a brief overview along with links to the source code and live demo.
           </motion.p>
-          <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 -left-60 w-screen -top-20" />
+          <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 sm:-left-60 -left-20 w-screen -top-20" />
         </div>
       </div>
 

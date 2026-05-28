@@ -86,7 +86,7 @@ const About = () => {
           {/* <a href={socialLinks[3].url} target="_blank" rel="noopener noreferrer" className='text-[#915EFF] hover:text-white hover:scale-125 transition-all duration-200'>
             <FaTwitter size={28} />
           </a> */}
-        </motion.div>        <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 -left-60 w-screen -top-20" />
+        </motion.div>        <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 sm:-left-60 -left-20 w-screen -top-20" />
         <Image src={astronaut} alt="astronaut" className="absolute z-[-1] h-80 -right-20 animation top-28" />
       </div>
 

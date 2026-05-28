@@ -137,7 +137,7 @@ const Certificates = () => {
         <Image
           src={color_sharp}
           alt="color-sharp"
-          className="absolute z-[-1] h-80 -left-60 w-screen -top-20"
+          className="absolute z-[-1] h-80 sm:-left-60 -left-20 w-screen -top-20"
         />
       </div>
 

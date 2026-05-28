@@ -1,12 +1,11 @@
 'use client'
-import React from "react";
 
-import { SectionWrapper } from "./hoc";
-import { technologies } from "../constants/constants";
 import { motion } from "framer-motion";
-import { textVariant } from "../utils/motion";
 import Image from "next/image";
 import color_sharp from "../assets/color_sharp.png";
+import { technologies } from "../constants/constants";
+import { textVariant } from "../utils/motion";
+import { SectionWrapper } from "./hoc";
 import Skills from "./Skills";
 
 const Tech = () => {
@@ -17,7 +16,7 @@ const Tech = () => {
         <p className={'sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'}>Tech</p>
         <h2 className={'text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'}>Skills.</h2>
       </motion.div>
-      <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 -left-60 w-screen -top-20" />
+      <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 sm:-left-60 -left-20 w-screen -top-20" />
       </div>
     <div className='flex relative z-10 flex-col flex-wrap justify-center gap-10'>
       <div className=" flex flex-wrap gap-10 justify-center">
