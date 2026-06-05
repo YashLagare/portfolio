@@ -35,8 +35,8 @@ import Ecom from "./7.4.png";
 import Devscreen from "./8.1.png";
 import PixelForge from "./PixelForge.png";
 import quickbite from "./quickbite.png";
-
+import REACT_JS from "./REACT_JS.png";
 export {
-  backend, chatzy, close, creator, css, Devscreen, docker, Ecom, express, figma, git, github, html, java, javascript, jwt, logo, menu, MERN, mobile, mongodb, neosao, nextauth, nextjs, nodejs, PixelForge, quickbite, reactjs, redux, tailwind, threejs, Twitter, typescript, web
+  backend, chatzy, close, creator, css, Devscreen, docker, Ecom, express, figma, git, github, html, java, javascript, jwt, logo, menu, MERN, mobile, mongodb, neosao, nextauth, nextjs, nodejs, PixelForge, quickbite, REACT_JS, reactjs, redux, tailwind, threejs, Twitter, typescript, web
 };
 

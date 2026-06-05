@@ -16,11 +16,12 @@ import {
   nodejs,
   PixelForge,
   quickbite,
+  REACT_JS,
   reactjs,
   tailwind,
   Twitter,
   typescript,
-  web
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -387,7 +388,7 @@ const certificates = [
     issuer: "30dc.graphy.com",
     date: "13 November 2025",
     credential_url:
-      "https://30dc.graphy.com/share-certificate?serialno=N3NS5WJH",
+      "https://30dc.graphy.com/verify-certificate?serialno=N3NS5WJH",
     image: MERN,
     tags: [
       { name: "React", color: "blue-text-gradient" },
@@ -399,7 +400,20 @@ const certificates = [
       { name: "HTML & CSS", color: "blue-text-gradient" },
     ],
   },
-  // Add more certificates here following the same structure...
+  {
+    title: "JavaScript and React JS Certificate",
+    issuer: "30dc.graphy.com",
+    date: "05 June 2026",
+    credential_url:
+      "https://30dc.graphy.com/verify-certificate?serialno=UC7UIZRO",
+    image: REACT_JS,
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "JavaScript", color: "yellow-text-gradient" },
+      { name: "HTML", color: "orange-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+    ],
+  },
 ];
 
 const experiences = [
