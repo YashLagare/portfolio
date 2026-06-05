@@ -1,4 +1,6 @@
 # 💼 Yash Lagare - Portfolio
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/3e3389ce-7c18-4be7-8766-062983b277ad" />
+
 
 ## 📌 About This Portfolio
 
