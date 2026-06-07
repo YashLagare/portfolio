@@ -171,6 +171,9 @@ const technologies = [
 
 const projects = [
   {
+    slug: "pixelforge",
+    tagline: "AI-powered image transformation platform built with Next.js and OpenAI.",
+    quickFacts: { Category: "Full Stack SaaS", Duration: "3 Weeks", Role: "Full Stack Developer", Status: "Production Ready" },
     name: "PixelForge AI Studio",
     description:
       "PixelForge AI Studio is a full-stack AI-powered image restyling platform built with Next.js and TypeScript, designed to transform user-uploaded images into high-quality artistic outputs using OpenAI’s image models. The project leverages AI-assisted development and advanced prompt engineering to accelerate feature development while maintaining strong type safety and scalability. TypeScript is used across the application to enforce strict typing for API contracts, database models, and application state, improving reliability and maintainability. The platform features a modern studio interface with curated style presets, along with secure authentication via Clerk, optimized image handling using ImageKit, and scalable data management with PostgreSQL and Drizzle ORM.",
@@ -211,6 +214,9 @@ const projects = [
   },
 
   {
+    slug: "devcanvas",
+    tagline: "Community-driven code sharing platform with real-time sync.",
+    quickFacts: { Category: "Web Application", Duration: "4 Weeks", Role: "Full Stack Developer", Status: "Production Ready" },
     name: "DevCanvas",
     description:
       "DevCanvas is a full-stack community-driven code sharing platform built with Next.js, Convex, and Clerk, enabling developers to create, discover, and manage code snippets seamlessly. The platform features secure authentication, real-time database synchronization, interactive commenting, and snippet bookmarking through a star system. Convex powers scalable backend operations, while Monaco Editor provides an enhanced code viewing experience. Clerk webhooks automatically synchronize user data, and Lemon Squeezy integration enables Pro subscriptions with premium language execution features. A modern, responsive UI ensures an engaging experience across all devices.",
@@ -242,6 +248,9 @@ const projects = [
   },
 
   {
+    slug: "connectify",
+    tagline: "Real-time communication platform for messaging and video calls.",
+    quickFacts: { Category: "Real-time Communication", Duration: "1 Month", Role: "Full Stack Developer", Status: "Live" },
     name: "Connectify",
     description:
       "Connectify is a full-stack real-time communication platform built with React, Express, MongoDB, Clerk, and Stream, enabling teams to collaborate through instant messaging and video calls. The application provides secure authentication, real-time chat, direct messaging, channel management, and high-quality video conferencing. Stream Chat and Stream Video power seamless real-time interactions, while Inngest automates user lifecycle synchronization between Clerk, MongoDB, and Stream services. A modern responsive interface ensures a smooth collaboration experience across desktop and mobile devices.",
@@ -276,6 +285,9 @@ const projects = [
   },
 
   {
+    slug: "devscreen",
+    tagline: "MERN stack online interview platform with secure communication.",
+    quickFacts: { Category: "Interview Platform", Duration: "2 Weeks", Role: "Full Stack Developer", Status: "Live" },
     name: "DevScreen",
     description:
       "DevScreen is a full-stack online interview platform built using the MERN stack, designed to streamline technical interviews with secure authentication and real-time communication. The platform uses Clerk for robust user authentication and Stream Chat for real-time messaging between candidates and interviewers. Scalable backend APIs were developed with Express and Mongoose to manage users, interviews, and chat workflows. React Query and Axios enable efficient data fetching, while a clean, responsive UI ensures a smooth experience across devices. Automated workflows powered by Inngest improve system reliability and overall performance.",
@@ -304,6 +316,9 @@ const projects = [
   },
 
   {
+    slug: "chatzy",
+    tagline: "Responsive real-time chat application powered by Socket.IO.",
+    quickFacts: { Category: "Chat Application", Duration: "2 Weeks", Role: "Full Stack Developer", Status: "Live" },
     name: "Chatzy",
     description:
       "Chatzy is a fully responsive real-time chat web application built using the MERN stack, designed for seamless one-to-one messaging with live user presence. It features a clean, modern UI crafted with TailwindCSS, DaisyUI, and Lucide Icons, along with React Hot Toast for instant user feedback. The app leverages Socket.IO for real-time communication, Zustand for efficient state management, and JWT-based authentication for secure access. This project strengthened my expertise in real-time systems, full-stack development, and modern UI engineering. 🌐 Hosted on Render.",
@@ -341,6 +356,9 @@ const projects = [
   },
 
   {
+    slug: "quickbite",
+    tagline: "Production-style multi-role food ordering and delivery platform.",
+    quickFacts: { Category: "E-Commerce / Delivery", Duration: "1.5 Months", Role: "Full Stack Developer", Status: "Live" },
     name: "QuickBite",
     description:
       "QuickBite is a production-style full-stack food ordering and delivery platform built using the MERN stack, designed around a real-world multi-role ecosystem (User, Shop Owner, Delivery Partner). The system implements secure JWT authentication via HTTP-only cookies, real-time order broadcasting and tracking using Socket.IO, Razorpay payment verification with server-side signature validation, and geo-based shop filtering using 2dsphere indexing. It follows a modular MVC backend architecture with role-based authorization, scalable folder structuring, and Redux Toolkit with state persistence on the frontend. This project reflects my ability to design and implement complex, real-time, multi-actor systems beyond standard CRUD applications.",
@@ -394,6 +412,9 @@ const projects = [
   },
 
   {
+    slug: "e-com-store",
+    tagline: "Secure e-commerce web application with RESTful APIs.",
+    quickFacts: { Category: "E-Commerce", Duration: "3 Weeks", Role: "Full Stack Developer", Status: "Live" },
     name: "E-Com Store",
     description:
       "E-Com Store is a full-stack e-commerce web application built to deliver a secure and seamless online shopping experience. The platform supports user authentication, product browsing, cart management, and secure checkout. It follows a scalable MERN-based architecture with RESTful APIs and a responsive UI for smooth usage across devices.",
@@ -421,6 +442,9 @@ const projects = [
   },
 
   {
+    slug: "twitter-clone",
+    tagline: "Full-stack social media web application inspired by Twitter.",
+    quickFacts: { Category: "Social Media", Duration: "3 Weeks", Role: "Full Stack Developer", Status: "Live" },
     name: "Twitter Clone",
     description:
       "Twitter Clone is a full-stack social media web application inspired by Twitter, built using the MERN stack. It enables users to securely register and log in, post tweets, like posts, and manage profiles in real time. The backend is powered by Express.js and MongoDB with JWT authentication and bcrypt.js for secure data handling, while Cloudinary enables seamless image uploads. The application features a clean, modern, and fully responsive UI and is deployed on Render for reliable performance.",
