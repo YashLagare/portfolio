@@ -22,6 +22,7 @@ import nextjs from "./tech/nextjs.svg";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import sql from "./tech/sql.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
@@ -33,10 +34,41 @@ import chatzy from "./4.1.png";
 import Twitter from "./6.4.png";
 import Ecom from "./7.4.png";
 import Devscreen from "./8.1.png";
+import connectify from "./connectify.png";
+import devcanvas from "./devcanvas.png";
 import PixelForge from "./PixelForge.png";
 import quickbite from "./quickbite.png";
 import REACT_JS from "./REACT_JS.png";
+import postgre from "./tech/postgre.png";
 export {
-  backend, chatzy, close, creator, css, Devscreen, docker, Ecom, express, figma, git, github, html, java, javascript, jwt, logo, menu, MERN, mobile, mongodb, neosao, nextauth, nextjs, nodejs, PixelForge, quickbite, REACT_JS, reactjs, redux, tailwind, threejs, Twitter, typescript, web
+  backend,
+  chatzy, close, connectify, creator,
+  css, devcanvas, Devscreen,
+  docker,
+  Ecom,
+  express,
+  figma,
+  git,
+  github,
+  html,
+  java,
+  javascript,
+  jwt,
+  logo,
+  menu,
+  MERN,
+  mobile, mongodb,
+  neosao,
+  nextauth,
+  nextjs,
+  nodejs,
+  PixelForge, postgre, quickbite,
+  REACT_JS,
+  reactjs,
+  redux, sql, tailwind,
+  threejs,
+  Twitter,
+  typescript,
+  web
 };
 

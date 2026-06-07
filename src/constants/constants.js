@@ -1,7 +1,9 @@
 import {
   backend,
   chatzy,
+  connectify,
   css,
+  devcanvas,
   Devscreen,
   Ecom,
   express,
@@ -21,7 +23,7 @@ import {
   tailwind,
   Twitter,
   typescript,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -112,10 +114,7 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -130,11 +129,11 @@ const technologies = [
   },
   // {
   //   name: "PostgreSQL",
-  //   icon: postgreSQL,
+  //   icon: postgre,
   // },
   // {
-  //   name: "Database",
-  //   icon: database,
+  //   name: "sql",
+  //   icon: sql,
   // },
   {
     name: "git",
@@ -209,6 +208,71 @@ const projects = [
 
     source_code_link: "https://github.com/YashLagare/pixelForge",
     live_link: "https://pixel-forge-zeta.vercel.app/",
+  },
+
+  {
+    name: "DevCanvas",
+    description:
+      "DevCanvas is a full-stack community-driven code sharing platform built with Next.js, Convex, and Clerk, enabling developers to create, discover, and manage code snippets seamlessly. The platform features secure authentication, real-time database synchronization, interactive commenting, and snippet bookmarking through a star system. Convex powers scalable backend operations, while Monaco Editor provides an enhanced code viewing experience. Clerk webhooks automatically synchronize user data, and Lemon Squeezy integration enables Pro subscriptions with premium language execution features. A modern, responsive UI ensures an engaging experience across all devices.",
+    features: [
+      "Secure authentication and user management using Clerk.",
+      "Create, browse, search, and manage community code snippets.",
+      "Interactive commenting system with ownership-based moderation.",
+      "Star and bookmark favorite snippets for quick access.",
+      "Read-only Monaco Editor integration for code viewing.",
+      "Automatic user synchronization through Clerk webhooks.",
+      "Pro subscription support with Lemon Squeezy payment integration.",
+      "Language-based premium feature gating and execution tracking.",
+      "Responsive and modern UI optimized for all screen sizes.",
+    ],
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "Convex", color: "green-text-gradient" },
+      { name: "Clerk", color: "pink-text-gradient" },
+      { name: "Tailwind CSS", color: "orange-text-gradient" },
+      { name: "Monaco Editor", color: "blue-text-gradient" },
+      { name: "Lemon Squeezy", color: "green-text-gradient" },
+      { name: "Framer Motion", color: "pink-text-gradient" },
+      { name: "TypeScript", color: "orange-text-gradient" },
+    ],
+    image: devcanvas,
+    source_code_link:
+      "https://github.com/YashLagare/DevCanvas-Your-Coding-Workspace",
+    live_link: "https://dev-canvas-your-coding-workspace.vercel.app/",
+  },
+
+  {
+    name: "Connectify",
+    description:
+      "Connectify is a full-stack real-time communication platform built with React, Express, MongoDB, Clerk, and Stream, enabling teams to collaborate through instant messaging and video calls. The application provides secure authentication, real-time chat, direct messaging, channel management, and high-quality video conferencing. Stream Chat and Stream Video power seamless real-time interactions, while Inngest automates user lifecycle synchronization between Clerk, MongoDB, and Stream services. A modern responsive interface ensures a smooth collaboration experience across desktop and mobile devices.",
+
+    features: [
+      "Secure authentication and user management using Clerk.",
+      "Real-time messaging powered by Stream Chat.",
+      "One-to-one direct messaging with unread message indicators.",
+      "Public and private channel creation with member management.",
+      "Invite users to channels and manage channel memberships.",
+      "Pinned messages and interactive threaded conversations.",
+      "High-quality video calling powered by Stream Video.",
+      "Automatic user synchronization using Inngest event-driven workflows.",
+      "Protected backend APIs with Clerk authentication middleware.",
+      "Responsive modern UI optimized for desktop and mobile devices.",
+    ],
+
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Express.js", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "Clerk", color: "orange-text-gradient" },
+      { name: "Stream Chat", color: "blue-text-gradient" },
+      { name: "Stream Video", color: "green-text-gradient" },
+      { name: "Inngest", color: "pink-text-gradient" },
+      { name: "Tailwind CSS", color: "orange-text-gradient" },
+    ],
+
+    image: connectify,
+    source_code_link: "https://github.com/YashLagare/Connectify",
+    live_link: "https://connectify-frontend-alpha.vercel.app/auth",
   },
 
   {
