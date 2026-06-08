@@ -1,7 +1,7 @@
 'use client'
 import { motion } from "framer-motion";
-import React, { useState } from "react";
 import Image from "next/image";
+import { useState } from "react";
 
 import color_sharp from "../assets/color_sharp.png";
 import { projects } from "../constants/constants";
@@ -13,9 +13,10 @@ const featuredProjects = [
   "PixelForge AI Studio",
   "DevCanvas",
   "Connectify",
-  "QuickBite",
   "DevScreen",
   "Chatzy",
+  "E-Com Store",
+
 ];
 
 const Works = () => {
@@ -25,7 +26,7 @@ const Works = () => {
   const sortedProjects = [...projects].sort((a, b) => {
     const indexA = featuredProjects.indexOf(a.name);
     const indexB = featuredProjects.indexOf(b.name);
-    
+
     // If both are featured, sort by their order in featuredProjects
     if (indexA !== -1 && indexB !== -1) return indexA - indexB;
     // If only A is featured, it comes first
@@ -60,14 +61,14 @@ const Works = () => {
 
       <div className='mt-20 grid grid-cols-1 lg:grid-cols-2 gap-7 items-stretch'>
         {displayedProjects.map((project, index) => (
-          <ProjectCard 
-            key={`project-${project.name}`} 
-            index={index} 
-            {...project} 
+          <ProjectCard
+            key={`project-${project.name}`}
+            index={index}
+            {...project}
           />
         ))}
       </div>
-      
+
       {sortedProjects.length > 6 && (
         <div className="mt-12 flex justify-center">
           <button
