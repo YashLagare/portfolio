@@ -46,17 +46,17 @@ const ProjectCard = ({
     <div className='flex flex-col h-full bg-tertiary bg-opacity-70 p-5 rounded-2xl gap-4 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
       <h3 className='text-white font-bold text-[28px] flex gap-2 items-center my-2 '>{name}<HiLink size={15} /></h3>
       
-      <div className='lg:flex gap-10 lg:flex-row lg:justify-between lg:items-center'>
-        <Tilt className='lg:w-[90%] lg:h-[90%] w-full h-full'>
+      <div className='flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between lg:items-center'>
+        <Tilt className='lg:w-[90%] lg:h-[90%] w-full'>
           <div className='relative cursor-pointer flex justify-between transition-all duration-500'>
             <img
               src={image.src}
               alt='project_image'
-              className='h-full w-full object-cover rounded-2xl'
+              className='w-full h-auto lg:h-full object-cover rounded-2xl'
             />
           </div>
         </Tilt>
-        <div className='flex sm:flex lg:flex-col gap-8 mt-3 lg:mt-0'>
+        <div className='flex flex-row lg:flex-col justify-center gap-8 mt-2 lg:mt-0'>
           <motion.div ref={refLiveLink} onMouseMove={onMouseMoveLiveLink} onMouseLeave={onMouseLeave}
             animate={{ x: positionLiveLink.x, y: positionLiveLink.y }}
             transition={{

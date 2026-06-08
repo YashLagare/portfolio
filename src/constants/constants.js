@@ -216,7 +216,7 @@ const projects = [
   {
     slug: "devcanvas",
     tagline: "Community-driven code sharing platform with real-time sync.",
-    quickFacts: { Category: "Web Application", Duration: "4 Weeks", Role: "Full Stack Developer", Status: "Production Ready" },
+    quickFacts: { Category: "Web Application", Duration: "2 months", Role: "Full Stack Developer", Status: "Production Ready" },
     name: "DevCanvas",
     description:
       "DevCanvas is a full-stack community-driven code sharing platform built with Next.js, Convex, and Clerk, enabling developers to create, discover, and manage code snippets seamlessly. The platform features secure authentication, real-time database synchronization, interactive commenting, and snippet bookmarking through a star system. Convex powers scalable backend operations, while Monaco Editor provides an enhanced code viewing experience. Clerk webhooks automatically synchronize user data, and Lemon Squeezy integration enables Pro subscriptions with premium language execution features. A modern, responsive UI ensures an engaging experience across all devices.",
@@ -287,7 +287,7 @@ const projects = [
   {
     slug: "devscreen",
     tagline: "MERN stack online interview platform with secure communication.",
-    quickFacts: { Category: "Interview Platform", Duration: "2 Weeks", Role: "Full Stack Developer", Status: "Live" },
+    quickFacts: { Category: "Interview Platform", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
     name: "DevScreen",
     description:
       "DevScreen is a full-stack online interview platform built using the MERN stack, designed to streamline technical interviews with secure authentication and real-time communication. The platform uses Clerk for robust user authentication and Stream Chat for real-time messaging between candidates and interviewers. Scalable backend APIs were developed with Express and Mongoose to manage users, interviews, and chat workflows. React Query and Axios enable efficient data fetching, while a clean, responsive UI ensures a smooth experience across devices. Automated workflows powered by Inngest improve system reliability and overall performance.",
@@ -318,7 +318,7 @@ const projects = [
   {
     slug: "chatzy",
     tagline: "Responsive real-time chat application powered by Socket.IO.",
-    quickFacts: { Category: "Chat Application", Duration: "2 Weeks", Role: "Full Stack Developer", Status: "Live" },
+    quickFacts: { Category: "Chat Application", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
     name: "Chatzy",
     description:
       "Chatzy is a fully responsive real-time chat web application built using the MERN stack, designed for seamless one-to-one messaging with live user presence. It features a clean, modern UI crafted with TailwindCSS, DaisyUI, and Lucide Icons, along with React Hot Toast for instant user feedback. The app leverages Socket.IO for real-time communication, Zustand for efficient state management, and JWT-based authentication for secure access. This project strengthened my expertise in real-time systems, full-stack development, and modern UI engineering. 🌐 Hosted on Render.",
@@ -358,7 +358,7 @@ const projects = [
   {
     slug: "quickbite",
     tagline: "Production-style multi-role food ordering and delivery platform.",
-    quickFacts: { Category: "E-Commerce / Delivery", Duration: "1.5 Months", Role: "Full Stack Developer", Status: "Live" },
+    quickFacts: { Category: "Delivery", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
     name: "QuickBite",
     description:
       "QuickBite is a production-style full-stack food ordering and delivery platform built using the MERN stack, designed around a real-world multi-role ecosystem (User, Shop Owner, Delivery Partner). The system implements secure JWT authentication via HTTP-only cookies, real-time order broadcasting and tracking using Socket.IO, Razorpay payment verification with server-side signature validation, and geo-based shop filtering using 2dsphere indexing. It follows a modular MVC backend architecture with role-based authorization, scalable folder structuring, and Redux Toolkit with state persistence on the frontend. This project reflects my ability to design and implement complex, real-time, multi-actor systems beyond standard CRUD applications.",
@@ -414,7 +414,7 @@ const projects = [
   {
     slug: "e-com-store",
     tagline: "Secure e-commerce web application with RESTful APIs.",
-    quickFacts: { Category: "E-Commerce", Duration: "3 Weeks", Role: "Full Stack Developer", Status: "Live" },
+    quickFacts: { Category: "E-Commerce", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
     name: "E-Com Store",
     description:
       "E-Com Store is a full-stack e-commerce web application built to deliver a secure and seamless online shopping experience. The platform supports user authentication, product browsing, cart management, and secure checkout. It follows a scalable MERN-based architecture with RESTful APIs and a responsive UI for smooth usage across devices.",
