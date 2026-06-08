@@ -356,6 +356,36 @@ const projects = [
   },
 
   {
+    slug: "e-com-store",
+    tagline: "Secure e-commerce web application with RESTful APIs.",
+    quickFacts: { Category: "E-Commerce", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
+    name: "E-Com Store",
+    description:
+      "E-Com Store is a full-stack e-commerce web application built to deliver a secure and seamless online shopping experience. The platform supports user authentication, product browsing, cart management, and secure checkout. It follows a scalable MERN-based architecture with RESTful APIs and a responsive UI for smooth usage across devices.",
+    features: [
+      "JWT-based authentication with secure login and signup flows.",
+      "Browse products with detailed views including pricing and descriptions.",
+      "Add, update, and remove products from the shopping cart.",
+      "Order placement and basic order management functionality.",
+      "RESTful APIs enabling smooth frontend–backend communication.",
+      "MongoDB database integration for users, products, and orders.",
+      "Fully responsive UI optimized for desktop and mobile devices.",
+    ],
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "REST API", color: "green-text-gradient" },
+      { name: "ExpressJs", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "orange-text-gradient" },
+      { name: "TailwindCSS", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "Strip-payment", color: "orange-text-gradient" },
+    ],
+    image: Ecom,
+    source_code_link: "https://github.com/YashLagare/E-Com-Store",
+    live_link: "https://e-com-store-1-mk69.onrender.com",
+  },
+
+  {
     slug: "quickbite",
     tagline: "Production-style multi-role food ordering and delivery platform.",
     quickFacts: { Category: "Delivery", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
@@ -409,36 +439,6 @@ const projects = [
     image: quickbite,
     source_code_link: "https://github.com/YashLagare/QuickBite",
     live_link: "https://quickbite-9jda.onrender.com",
-  },
-
-  {
-    slug: "e-com-store",
-    tagline: "Secure e-commerce web application with RESTful APIs.",
-    quickFacts: { Category: "E-Commerce", Duration: "2 Months", Role: "Full Stack Developer", Status: "Live" },
-    name: "E-Com Store",
-    description:
-      "E-Com Store is a full-stack e-commerce web application built to deliver a secure and seamless online shopping experience. The platform supports user authentication, product browsing, cart management, and secure checkout. It follows a scalable MERN-based architecture with RESTful APIs and a responsive UI for smooth usage across devices.",
-    features: [
-      "JWT-based authentication with secure login and signup flows.",
-      "Browse products with detailed views including pricing and descriptions.",
-      "Add, update, and remove products from the shopping cart.",
-      "Order placement and basic order management functionality.",
-      "RESTful APIs enabling smooth frontend–backend communication.",
-      "MongoDB database integration for users, products, and orders.",
-      "Fully responsive UI optimized for desktop and mobile devices.",
-    ],
-    tags: [
-      { name: "React", color: "blue-text-gradient" },
-      { name: "REST API", color: "green-text-gradient" },
-      { name: "ExpressJs", color: "pink-text-gradient" },
-      { name: "MongoDB", color: "orange-text-gradient" },
-      { name: "TailwindCSS", color: "blue-text-gradient" },
-      { name: "NodeJs", color: "green-text-gradient" },
-      { name: "Strip-payment", color: "orange-text-gradient" },
-    ],
-    image: Ecom,
-    source_code_link: "https://github.com/YashLagare/E-Com-Store",
-    live_link: "https://e-com-store-1-mk69.onrender.com",
   },
 
   {
