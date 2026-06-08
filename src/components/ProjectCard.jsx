@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import React from "react";
-import Tilt from "react-parallax-tilt";
 import Link from "next/link";
+import React from "react";
 import { HiLink } from "react-icons/hi";
 import { ImGithub } from "react-icons/im";
+import Tilt from "react-parallax-tilt";
 
 const ProjectCard = ({
   index,
@@ -45,7 +45,7 @@ const ProjectCard = ({
   return (
     <div className='flex flex-col h-full bg-tertiary bg-opacity-70 p-5 rounded-2xl gap-4 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
       <h3 className='text-white font-bold text-[28px] flex gap-2 items-center my-2 '>{name}<HiLink size={15} /></h3>
-      
+
       <div className='flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between lg:items-center'>
         <Tilt className='lg:w-[90%] lg:h-[90%] w-full'>
           <div className='relative cursor-pointer flex justify-between transition-all duration-500'>
@@ -91,7 +91,7 @@ const ProjectCard = ({
       <div className='flex-grow flex flex-col mt-2'>
         <div className='flex-grow'>
           <p className='text-gray-300 text-[19px] font-semibold mb-2 line-clamp-4'>{description}</p>
-          
+
           <div className='mt-4 flex flex-wrap gap-3 mb-6'>
             {tags.map((tag) => (
               <p title={tag.name}
@@ -104,11 +104,11 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <Link 
+        <Link
           href={`/projects/${slug}`}
           className="mt-auto self-start bg-transparent hover:bg-secondary text-white font-semibold py-2 px-4 border border-secondary hover:border-transparent rounded-lg transition-all duration-300"
         >
-          View Case Study &rarr;
+          View Details &rarr;
         </Link>
       </div>
     </div>
