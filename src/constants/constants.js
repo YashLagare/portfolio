@@ -17,6 +17,7 @@ import {
   nextjs,
   nodejs,
   PixelForge,
+  postgre,
   quickbite,
   REACT_JS,
   reactjs,
@@ -127,10 +128,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "PostgreSQL",
-  //   icon: postgre,
-  // },
+  {
+    name: "PostgreSQL",
+    icon: postgre,
+  },
   // {
   //   name: "sql",
   //   icon: sql,
