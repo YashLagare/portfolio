@@ -131,7 +131,7 @@ const Certificates = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          A collection of certifications that reflect my commitment to continuous learning and professional growth across various technologies and domains.
+          Certifications earned through continuous learning in full-stack development, JavaScript, React.js, and modern web technologies.
         </motion.p>
 
         <Image

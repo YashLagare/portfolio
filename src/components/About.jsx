@@ -50,11 +50,11 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold'
         >
-          Hi, I’m Yash Yuvaraj Lagare — a Full Stack Developer focused on building modern, scalable, and user-centric web applications. I work primarily with React.js, Next.js, TypeScript, Node.js, and MongoDB, with hands-on experience developing real-world projects and production-level applications.
+          Hi, I'm Yash Yuvaraj Lagare, a Full Stack Developer passionate about building modern, scalable, and user-focused web applications. I specialize in React.js, Next.js, TypeScript, Node.js, and MongoDB, with hands-on experience developing real-world projects ranging from AI-powered platforms and real-time applications to full-stack web solutions.
 
-          I enjoy turning ideas into polished digital experiences, whether it’s building responsive frontend interfaces, integrating APIs, or developing full-stack features. I’m especially interested in modern web architecture, performance optimization, and creating applications that feel smooth, fast, and intuitive to use.
+          I enjoy transforming ideas into polished digital products by creating responsive user interfaces, integrating APIs, and building reliable backend systems. My focus is on clean architecture, performance optimization, and delivering intuitive user experiences.
 
-          Currently, I’m focused on strengthening my expertise in scalable frontend systems, full-stack development, and real-time web applications while continuously learning and improving through practical projects and industry experience.
+          Currently, I'm expanding my expertise in full-stack development, modern web architecture, and scalable applications while continuously learning through practical projects and industry experience.
         </motion.p>
         <motion.div
           variants={fadeIn("", "", 0.2, 1)}

@@ -53,7 +53,7 @@ const Works = () => {
           <motion.p
             className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
           >
-            These projects highlight my hands-on experience by solving real-world problems using modern technologies. Each project includes a brief overview along with links to the source code and live demo.
+            These projects reflect my hands-on experience building modern web applications using React.js, Next.js, TypeScript, Node.js, and MongoDB. Each project demonstrates practical problem-solving, scalable development practices, and real-world implementation, with links to the source code and live demo.
           </motion.p>
           <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 sm:-left-60 -left-20 w-screen -top-20" />
         </div>
