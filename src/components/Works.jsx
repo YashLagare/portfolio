@@ -11,10 +11,10 @@ import ProjectCard from "./ProjectCard";
 
 const featuredProjects = [
   "PixelForge AI Studio",
-  "DevCanvas",
   "Connectify",
-  "DevScreen",
   "Chatzy",
+  "DevCanvas",
+  "DevScreen",
   "E-Com Store",
 
 ];

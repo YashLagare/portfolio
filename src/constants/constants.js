@@ -578,9 +578,9 @@ const experiences = [
     company_name: "NeoSao Services Pvt. Ltd.",
     icon: neosao,
     iconBg: "#E6DEDD",
-    date: "July 2025 - Present",
+    date: "July 2025 - June 2026",
     points: [
-      "Frontend Developer Intern working on production-level web applications using React.js, Next.js, TypeScript, and Tailwind CSS. Developed responsive UI components, integrated REST APIs, and contributed to performance optimization and SSR implementation. Collaborated within an agile development team using Git and GitHub while following modern frontend best practices.",
+      "Contributed to real-world client projects using React.js, Next.js, TypeScript, and Tailwind CSS. Built reusable frontend components, integrated REST APIs, improved application performance, and collaborated in a team environment using modern development workflows and version control.",
     ],
   },
 ];
