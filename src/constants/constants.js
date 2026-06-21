@@ -9,6 +9,7 @@ import {
   express,
   git,
   html,
+  InvoicePilot,
   javascript,
   MERN,
   mobile,
@@ -171,6 +172,64 @@ const technologies = [
 ];
 
 const projects = [
+  {
+    slug: "invoicepilot",
+
+    tagline:
+      "Full-stack invoice management platform with PDF generation, email automation, and dashboard analytics.",
+
+    quickFacts: {
+      Category: "Full Stack SaaS",
+      Duration: "Ongoing",
+      Role: "Full Stack Developer",
+      Status: "Production Ready",
+    },
+
+    name: "InvoicePilot",
+
+    description:
+      "InvoicePilot is a full-stack invoice management platform built with Next.js App Router and TypeScript that enables authenticated users to create, manage, and track invoices end-to-end. The platform supports invoice lifecycle operations including creation, editing, deletion, payment tracking, PDF generation, and automated email communication. Built with a scalable server-driven architecture, InvoicePilot uses NextAuth for passwordless authentication, Prisma with PostgreSQL for relational data management, and modern UI practices using Tailwind CSS and shadcn/ui. The application also includes dashboard analytics, revenue visualization, and automated reminder workflows to streamline invoicing for freelancers and small businesses.",
+
+    features: [
+      "Passwordless authentication using NextAuth magic-link login.",
+      "User onboarding flow with profile completion and prefilled invoice details.",
+      "Create invoices with dynamic line items and validated form inputs.",
+      "Edit, update, and manage invoice lifecycle efficiently.",
+      "Delete invoices with ownership-based authorization checks.",
+      "Mark invoices as PAID and track invoice status in real time.",
+      "Generate downloadable invoice PDFs using jsPDF.",
+      "Send automated invoice emails and payment reminders using Nodemailer.",
+      "Dashboard analytics with revenue insights and invoice statistics.",
+      "Revenue visualization using interactive charts.",
+      "Invoice filtering and pagination for better data management.",
+      "Schema validation using Zod and Conform.",
+      "Server Actions and Route Handlers for optimized full-stack workflows.",
+      "Responsive UI built using Tailwind CSS and shadcn/ui.",
+      "Production-ready architecture using PostgreSQL and Prisma ORM.",
+    ],
+
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "orange-text-gradient" },
+      { name: "Prisma", color: "blue-text-gradient" },
+      { name: "NextAuth", color: "pink-text-gradient" },
+      { name: "Nodemailer", color: "green-text-gradient" },
+      { name: "jsPDF", color: "orange-text-gradient" },
+      { name: "Tailwind CSS", color: "green-text-gradient" },
+      { name: "shadcn/ui", color: "orange-text-gradient" },
+      { name: "Zod", color: "blue-text-gradient" },
+      { name: "Conform", color: "pink-text-gradient" },
+    ],
+
+    image: InvoicePilot,
+
+    source_code_link: "https://github.com/YashLagare/InvoicePilot",
+
+    live_link: "https://invoice-pilot-pi.vercel.app/",
+  },
+
   {
     slug: "pixelforge",
     tagline:

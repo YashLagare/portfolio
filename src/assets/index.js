@@ -40,6 +40,7 @@ import PixelForge from "./PixelForge.png";
 import quickbite from "./quickbite.png";
 import REACT_JS from "./REACT_JS.png";
 import postgre from "./tech/postgre.png";
+import InvoicePilot from "./InvoicePilot.png";
 export {
   backend,
   chatzy, close, connectify, creator,
@@ -64,6 +65,7 @@ export {
   nodejs,
   PixelForge, postgre, quickbite,
   REACT_JS,
+  InvoicePilot,
   reactjs,
   redux, sql, tailwind,
   threejs,
