@@ -180,7 +180,7 @@ const projects = [
 
     quickFacts: {
       Category: "Full Stack SaaS",
-      Duration: "Ongoing",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Production Ready",
     },
