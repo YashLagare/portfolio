@@ -227,7 +227,7 @@ const projects = [
 
     source_code_link: "https://github.com/YashLagare/InvoicePilot",
 
-    live_link: "https://invoice-pilot-pi.vercel.app/",
+    live_link: "https://invoice-pilot-gold.vercel.app/",
   },
 
   {
