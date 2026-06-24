@@ -26,7 +26,7 @@ const CertificateCard = ({ index, title, issuer, date, credential_url, image, ta
   const onMouseLeave = () => setPosition({ x: 0, y: 0 });
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)} className="h-full">
       <Tilt
         glareEnable={true}
         glareMaxOpacity={0.15}
@@ -37,10 +37,10 @@ const CertificateCard = ({ index, title, issuer, date, credential_url, image, ta
         tiltMaxAngleY={8}
         tiltEnable={true}
         perspective={1000}
-        className="w-full"
+        className="w-full h-full"
       >
-        <div className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
-          <div className="bg-tertiary bg-opacity-90 rounded-[20px] p-6 flex flex-col sm:flex-row gap-6 items-start">
+        <div className="w-full h-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+          <div className="bg-tertiary bg-opacity-90 rounded-[20px] p-6 flex flex-col sm:flex-row gap-6 items-stretch h-full">
 
             {/* Certificate Image */}
             {image && (
