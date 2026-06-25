@@ -54,7 +54,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/yash-lagare-814b37299",
+    url: "https://www.linkedin.com/in/yashlagare",
     icon: "FaLinkedin",
   },
   {
