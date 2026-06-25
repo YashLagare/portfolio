@@ -313,8 +313,7 @@ const projects = [
       { name: "TypeScript", color: "orange-text-gradient" },
     ],
     image: devcanvas,
-    source_code_link:
-      "https://github.com/YashLagare/DevCanvas-Your-Coding-Workspace",
+    source_code_link: "https://github.com/YashLagare/DevCanvas",
     live_link: "https://dev-canvas-your-coding-workspace.vercel.app/",
   },
 
