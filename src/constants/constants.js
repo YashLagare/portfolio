@@ -638,7 +638,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2025 - June 2026",
     points: [
-      "Contributed to real-world client projects using React.js, Next.js, TypeScript, and Tailwind CSS. Built reusable frontend components, integrated REST APIs, improved application performance, and collaborated in a team environment using modern development workflows and version control.",
+      "Worked on multiple production-grade client projects as a Frontend Developer Intern, delivering responsive and user-centric web applications using React.js, Next.js, TypeScript, and Tailwind CSS. Developed reusable component libraries, integrated backend APIs, optimized performance and accessibility, and ensured cross-browser compatibility. Collaborated within a professional development team, participated in code reviews, and followed industry-standard workflows using Git, Agile methodologies, and modern frontend best practices.",
     ],
   },
 ];
