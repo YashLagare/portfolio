@@ -15,6 +15,7 @@ import {
   mobile,
   mongodb,
   neosao,
+  nextauth,
   nextjs,
   nodejs,
   PixelForge,
@@ -157,10 +158,10 @@ const technologies = [
   //   name: "JWT",
   //   icon: jwt,
   // },
-  // {
-  //   name: "NextAuth",
-  //   icon: nextauth,
-  // },
+  {
+    name: "NextAuth",
+    icon: nextauth,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
