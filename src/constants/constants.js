@@ -632,6 +632,17 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
+  // {
+  //   title: "Frontend Developer Intern",
+  //   company_name: "NeoSao Services Pvt. Ltd.",
+  //   icon: neosao,
+  //   iconBg: "#E6DEDD",
+  //   date: "July 2025 - June 2026",
+  //   points: [
+  //     "Building responsive, production-grade client applications using React.js, Next.js, TypeScript, and Tailwind CSS.Developed and maintained reusable React/Next.js component libraries used across multiple client-facing production applications, reducing duplicate UI code and speeding up feature delivery. Integrated REST APIs end-to-end across 15+ client-facing production applications, connecting frontend interfaces to backend services and handling 30+ distinct data workflows (orders, auth, admin CRUD operations, vendor management).Optimized frontend performance and implemented Server-Side Rendering (SSR) patterns, improving page load behavior and SEO-readiness for client applications.Collaborated within an Agile development team, participating in code reviews, Git-based version control workflows, and cross-functional delivery of production-ready features."
+  //   ],
+  // },
+
   {
     title: "Frontend Developer Intern",
     company_name: "NeoSao Services Pvt. Ltd.",
@@ -639,9 +650,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2025 - June 2026",
     points: [
-      "Building responsive, production-grade client applications using React.js, Next.js, TypeScript, and Tailwind CSS.Developed and maintained reusable React/Next.js component libraries used across multiple client-facing production applications, reducing duplicate UI code and speeding up feature delivery. Integrated REST APIs end-to-end across 15+ client-facing production applications, connecting frontend interfaces to backend services and handling 30+ distinct data workflows (orders, auth, admin CRUD operations, vendor management).Optimized frontend performance and implemented Server-Side Rendering (SSR) patterns, improving page load behavior and SEO-readiness for client applications.Collaborated within an Agile development team, participating in code reviews, Git-based version control workflows, and cross-functional delivery of production-ready features."
+      "Delivered responsive, production-grade client applications using React.js, Next.js, TypeScript, and Tailwind CSS across 15+ client-facing projects.",
+      "Developed and maintained reusable React/Next.js component libraries, reducing duplicate UI code and speeding up feature delivery.",
+      "Integrated REST APIs end-to-end, connecting frontend interfaces to backend services and handling 30+ distinct data workflows (orders, auth, admin CRUD, vendor management).",
+      "Optimized frontend performance and implemented Server-Side Rendering (SSR) patterns, improving page load behavior and SEO-readiness for client applications.",
+      "Collaborated within an Agile development team, participating in code reviews, Git-based version control workflows, and cross-functional delivery of production-ready features.",
     ],
   },
+  
 ];
 
 // const testimonials = [

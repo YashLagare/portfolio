@@ -50,12 +50,11 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold'
         >
-          Hi, I'm Yash Yuvaraj Lagare — a Full Stack Developer passionate about creating scalable, high-performance, and user-focused web applications. I work primarily with React.js, Next.js, TypeScript, Node.js, and modern web technologies, with hands-on experience contributing to real-world client projects and delivering production-ready applications from concept to deployment.
+          Hi, I'm Yash Lagare — a Full Stack Developer passionate about creating scalable, high-performance, and user-focused web applications. I work primarily with React.js, Next.js, TypeScript, Node.js, and modern web technologies, with hands-on experience contributing to real-world client projects and delivering production-ready applications from concept to deployment.
 
-          Over the past year, I’ve developed SaaS platforms, AI-powered applications, real-time systems, and multi-role web platforms with a strong focus on clean architecture, responsive experiences, and maintainable code. I enjoy turning complex requirements into intuitive products, integrating APIs, improving performance, and creating solutions that provide real business value.
+          Over the past year, I've worked across 15+ client and internal projects — including building a food delivery and grocery Admin & Vendor Panel from the ground up with 30+ feature modules, migrating 15+ high-traffic sections to TanStack Query for a faster experience, and shipping payment integrations, real-time systems, and multi-role platforms. I enjoy turning complex requirements into intuitive products, integrating APIs, improving performance, and creating solutions that provide real business value.
 
-          Currently, I’m focused on advancing my expertise in scalable frontend architecture, full-stack engineering, and modern web development while continuously creating projects that push my skills and help me grow as a developer.
-
+          Currently, I'm focused on advancing my expertise in scalable frontend architecture, full-stack engineering, and modern web development while continuously creating projects that push my skills and help me grow as a developer.
         </motion.p>
         <motion.div
           variants={fadeIn("", "", 0.2, 1)}
