@@ -36,11 +36,12 @@ import Ecom from "./7.4.png";
 import Devscreen from "./8.1.png";
 import connectify from "./connectify.png";
 import devcanvas from "./devcanvas.png";
+import FlowForge from "./FlowForge.png";
+import InvoicePilot from "./InvoicePilot.png";
 import PixelForge from "./PixelForge.png";
 import quickbite from "./quickbite.png";
 import REACT_JS from "./REACT_JS.png";
 import postgre from "./tech/postgre.png";
-import InvoicePilot from "./InvoicePilot.png";
 export {
   backend,
   chatzy, close, connectify, creator,
@@ -48,11 +49,9 @@ export {
   docker,
   Ecom,
   express,
-  figma,
-  git,
+  figma, FlowForge, git,
   github,
-  html,
-  java,
+  html, InvoicePilot, java,
   javascript,
   jwt,
   logo,
@@ -64,9 +63,7 @@ export {
   nextjs,
   nodejs,
   PixelForge, postgre, quickbite,
-  REACT_JS,
-  InvoicePilot,
-  reactjs,
+  REACT_JS, reactjs,
   redux, sql, tailwind,
   threejs,
   Twitter,

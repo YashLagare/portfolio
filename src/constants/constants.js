@@ -7,6 +7,7 @@ import {
   Devscreen,
   Ecom,
   express,
+  FlowForge,
   git,
   html,
   InvoicePilot,
@@ -173,6 +174,59 @@ const technologies = [
 ];
 
 const projects = [
+  {
+    slug: "flowforge",
+
+    tagline:
+      "Visual browser automation platform with real-time collaboration and durable workflow execution.",
+
+    quickFacts: {
+      Category: "AI Automation SaaS",
+      Duration: "2 Months",
+      Role: "Full Stack Developer",
+      Status: "Production Ready",
+    },
+
+    name: "FlowForge",
+
+    description:
+      "FlowForge is a production-grade browser automation platform inspired by modern workflow automation tools, enabling users to visually build, collaborate on, and execute browser automation workflows without writing complex scripts. The platform features a drag-and-drop node-based workflow editor powered by React Flow, real-time multiplayer collaboration with Liveblocks, secure organization-based authentication using Clerk, and durable background execution powered by Trigger.dev. Browser automation is handled through Stagehand and Browserbase, while Drizzle ORM and Neon PostgreSQL provide a scalable and type-safe data layer. Built with Next.js 16, React 19, and TypeScript, FlowForge demonstrates modern SaaS architecture, server actions, subscription-based feature gating, and production-ready engineering practices.",
+
+    features: [
+      "Visual drag-and-drop workflow builder using React Flow.",
+      "Real-time collaborative editing with live cursors powered by Liveblocks.",
+      "Background workflow execution using Trigger.dev.",
+      "Browser automation powered by Stagehand and Browserbase.",
+      "Secure authentication and organization management using Clerk.",
+      "Role-based access control and subscription-based feature gating.",
+      "Workflow persistence using Neon PostgreSQL and Drizzle ORM.",
+      "Next.js Server Actions for secure backend operations.",
+      "Modern responsive dashboard built with Tailwind CSS and shadcn/ui.",
+      "Production-ready architecture with scalable background processing and monitoring.",
+    ],
+
+    tags: [
+      { name: "Next.js 16", color: "blue-text-gradient" },
+      { name: "React 19", color: "green-text-gradient" },
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "React Flow", color: "orange-text-gradient" },
+      { name: "Liveblocks", color: "pink-text-gradient" },
+      { name: "Trigger.dev", color: "green-text-gradient" },
+      { name: "Stagehand", color: "blue-text-gradient" },
+      { name: "Browserbase", color: "orange-text-gradient" },
+      { name: "Clerk", color: "pink-text-gradient" },
+      { name: "Neon PostgreSQL", color: "green-text-gradient" },
+      { name: "Drizzle ORM", color: "blue-text-gradient" },
+      { name: "Tailwind CSS", color: "orange-text-gradient" },
+    ],
+
+    image: FlowForge,
+
+    source_code_link: "https://github.com/YashLagare/FlowForge",
+
+    live_link: "https://flow-forge-ebon.vercel.app/",
+  },
+
   {
     slug: "invoicepilot",
 
@@ -657,7 +711,6 @@ const experiences = [
       "Collaborated within an Agile development team, participating in code reviews, Git-based version control workflows, and cross-functional delivery of production-ready features.",
     ],
   },
-  
 ];
 
 // const testimonials = [
