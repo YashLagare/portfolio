@@ -505,7 +505,7 @@ const projects = [
     tagline: "Secure e-commerce web application with RESTful APIs.",
     quickFacts: {
       Category: "E-Commerce",
-      Duration: "1 Months",
+      Duration: " Months",
       Role: "Full Stack Developer",
       Status: "Live",
     },
