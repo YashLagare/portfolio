@@ -178,31 +178,35 @@ const projects = [
     slug: "flowforge",
 
     tagline:
-      "Visual browser automation platform with real-time collaboration and durable workflow execution.",
+      "Visual workflow automation platform with real-time collaboration, browser automation, AI-powered workflows, and durable background execution.",
 
     quickFacts: {
-      Category: "AI Automation SaaS",
-      Duration: "2 Months",
+      Category: "Workflow Automation SaaS",
+      Duration: "1 Months",
       Role: "Full Stack Developer",
       Status: "Production Ready",
     },
 
-    name: "FlowForge",
+    name: "FlowForge – Workflow Automation Platform",
 
     description:
-      "FlowForge is a production-grade browser automation platform inspired by modern workflow automation tools, enabling users to visually build, collaborate on, and execute browser automation workflows without writing complex scripts. The platform features a drag-and-drop node-based workflow editor powered by React Flow, real-time multiplayer collaboration with Liveblocks, secure organization-based authentication using Clerk, and durable background execution powered by Trigger.dev. Browser automation is handled through Stagehand and Browserbase, while Drizzle ORM and Neon PostgreSQL provide a scalable and type-safe data layer. Built with Next.js 16, React 19, and TypeScript, FlowForge demonstrates modern SaaS architecture, server actions, subscription-based feature gating, and production-ready engineering practices.",
+      "FlowForge is a production-grade workflow automation platform inspired by modern automation tools like n8n and Zapier. It enables users to visually build, collaborate on, schedule, and execute browser automation workflows without writing code. The platform features a drag-and-drop workflow builder powered by React Flow, real-time collaboration with Liveblocks, durable background execution using Trigger.dev, browser automation through Stagehand and Browserbase, and native Google Sheets integration with reusable encrypted Connections. Built with Next.js 16, React 19, TypeScript, Drizzle ORM, and Neon PostgreSQL, FlowForge showcases scalable SaaS architecture with Server Actions, Clerk Organizations, secure credential management, scheduled workflow execution, role-based access control, subscription-based feature gating, and production-ready engineering practices.",
 
     features: [
       "Visual drag-and-drop workflow builder using React Flow.",
       "Real-time collaborative editing with live cursors powered by Liveblocks.",
-      "Background workflow execution using Trigger.dev.",
       "Browser automation powered by Stagehand and Browserbase.",
-      "Secure authentication and organization management using Clerk.",
-      "Role-based access control and subscription-based feature gating.",
+      "AI-powered workflow nodes for intelligent automation.",
+      "Durable background workflow execution using Trigger.dev.",
+      "Cron-based Schedule Trigger for recurring automated workflows.",
+      "Native Google Sheets integration with encrypted reusable Connections.",
+      "Centralized Connections dashboard for secure third-party integrations.",
+      "Secure authentication, organizations, and role-based access using Clerk.",
+      "Subscription-based feature gating with Free and Pro plans.",
       "Workflow persistence using Neon PostgreSQL and Drizzle ORM.",
-      "Next.js Server Actions for secure backend operations.",
-      "Modern responsive dashboard built with Tailwind CSS and shadcn/ui.",
-      "Production-ready architecture with scalable background processing and monitoring.",
+      "Next.js Server Actions powering secure backend operations.",
+      "Production monitoring with Sentry and transactional emails via Resend.",
+      "Modern responsive dashboard built using Tailwind CSS and shadcn/ui.",
     ],
 
     tags: [
@@ -214,6 +218,7 @@ const projects = [
       { name: "Trigger.dev", color: "green-text-gradient" },
       { name: "Stagehand", color: "blue-text-gradient" },
       { name: "Browserbase", color: "orange-text-gradient" },
+      { name: "Google Sheets API", color: "green-text-gradient" },
       { name: "Clerk", color: "pink-text-gradient" },
       { name: "Neon PostgreSQL", color: "green-text-gradient" },
       { name: "Drizzle ORM", color: "blue-text-gradient" },
@@ -419,7 +424,7 @@ const projects = [
     tagline: "MERN stack online interview platform with secure communication.",
     quickFacts: {
       Category: "Interview Platform",
-      Duration: "2 Months",
+      Duration: "1 Months",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -455,7 +460,7 @@ const projects = [
     tagline: "Responsive real-time chat application powered by Socket.IO.",
     quickFacts: {
       Category: "Chat Application",
-      Duration: "2 Months",
+      Duration: "1 Months",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -500,7 +505,7 @@ const projects = [
     tagline: "Secure e-commerce web application with RESTful APIs.",
     quickFacts: {
       Category: "E-Commerce",
-      Duration: "2 Months",
+      Duration: "1 Months",
       Role: "Full Stack Developer",
       Status: "Live",
     },
