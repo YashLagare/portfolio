@@ -78,11 +78,11 @@ export const socialLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
