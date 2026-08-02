@@ -50,11 +50,13 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold'
         >
-          Hi, I'm Yash Lagare — a Full Stack Developer passionate about creating scalable, high-performance, and user-focused web applications. I work primarily with React.js, Next.js, TypeScript, Node.js, and modern web technologies, with hands-on experience contributing to real-world client projects and delivering production-ready applications from concept to deployment.
+          Hi, I'm Yash Lagare — a Full Stack Developer passionate about creating scalable, high-performance, and user-focused web applications. I work primarily with React.js, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, and Prisma, with hands-on experience contributing to real-world client projects and delivering production-ready applications from concept to deployment.
 
-          Over the past year, I've worked across 15+ client and internal projects — including building a food delivery and grocery Admin & Vendor Panel from the ground up with 30+ feature modules, migrating 15+ high-traffic sections to TanStack Query for a faster experience, and shipping payment integrations, real-time systems, and multi-role platforms. I enjoy turning complex requirements into intuitive products, integrating APIs, improving performance, and creating solutions that provide real business value.
+          Over the past year, as a Frontend Developer Intern at NeoSao Services, I worked across 15+ client and internal projects — including building a food delivery and grocery Admin & Vendor Panel from the ground up with 30+ feature modules, migrating 15+ high-traffic sections to TanStack Query for a faster experience, and shipping payment integrations, real-time systems, and multi-role platforms.
 
-          Currently, I'm focused on advancing my expertise in scalable frontend architecture, full-stack engineering, and modern web development while continuously creating projects that push my skills and help me grow as a developer.
+          Alongside client work, I've independently built and deployed 9+ full-stack products — including invoicing SaaS, AI-powered tools, and real-time platforms — each one covering the full stack from database schema to UI.
+
+          I've now completed that internship and am actively looking for full-time Frontend or Full Stack Developer roles where I can own features end-to-end. I enjoy turning complex requirements into intuitive products, integrating APIs, and building solutions that provide real business value.
         </motion.p>
         <motion.div
           variants={fadeIn("", "", 0.2, 1)}

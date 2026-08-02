@@ -5,8 +5,8 @@ import Image from "next/image";
 import color_sharp from "../assets/color_sharp.png";
 
 import {
-    VerticalTimeline,
-    VerticalTimelineElement,
+  VerticalTimeline,
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience }) => (
         className='text-secondary text-[16px] font-semibold'
         style={{ margin: 0 }}
       >
-        {experience.company_name}
+        {experience.company_name} · 1 Year
       </p>
     </div>
 
