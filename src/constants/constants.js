@@ -385,7 +385,7 @@ const projects = [
 
   quickFacts: {
     Category: "Enterprise Collaboration Platform",
-    Duration: "2+ Months",
+    Duration: "1 Months",
     Role: "Full Stack Developer",
     Status: "Live",
   },
