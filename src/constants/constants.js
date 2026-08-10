@@ -193,6 +193,7 @@ const projects = [
       "FlowForge is a production-grade workflow automation platform inspired by modern automation tools like n8n and Zapier. It enables users to visually build, collaborate on, schedule, and execute browser automation workflows without writing code. The platform features a drag-and-drop workflow builder powered by React Flow, real-time collaboration with Liveblocks, durable background execution using Trigger.dev, browser automation through Stagehand and Browserbase, and native Google Sheets integration with reusable encrypted Connections. Built with Next.js 16, React 19, TypeScript, Drizzle ORM, and Neon PostgreSQL, FlowForge showcases scalable SaaS architecture with Server Actions, Clerk Organizations, secure credential management, scheduled workflow execution, role-based access control, subscription-based feature gating, and production-ready engineering practices.",
 
     features: [
+      "Advanced Loop / Iterator nodes for batch processing, enabling workflows to iterate over arrays and execute downstream nodes for each item with safe loop controls.",
       "Visual drag-and-drop workflow builder using React Flow.",
       "Real-time collaborative editing with live cursors powered by Liveblocks.",
       "Browser automation powered by Stagehand and Browserbase.",
