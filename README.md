@@ -116,3 +116,5 @@ This portfolio uses **EmailJS** for handling contact form submissions. When some
 - Form validation happens on the frontend (name, email, subject, message)
 - Upon valid submission, EmailJS sends the message to your configured email
 - Toast notifications confirm success or show errors
+
+Written By Yash
