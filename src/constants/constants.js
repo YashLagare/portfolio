@@ -182,7 +182,7 @@ const projects = [
 
     quickFacts: {
       Category: "Workflow Automation SaaS",
-      Duration: "1 Months",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Production Ready",
     },
@@ -298,7 +298,7 @@ const projects = [
       "AI-powered image transformation platform built with Next.js and OpenAI.",
     quickFacts: {
       Category: "Full Stack SaaS",
-      Duration: "3 Weeks",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Production Ready",
     },
@@ -346,7 +346,7 @@ const projects = [
     tagline: "Community-driven code sharing platform with real-time sync.",
     quickFacts: {
       Category: "Web Application",
-      Duration: "2 months",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Production Ready",
     },
@@ -386,7 +386,7 @@ const projects = [
 
   quickFacts: {
     Category: "Enterprise Collaboration Platform",
-    Duration: "1 Months",
+    Duration: "1 month",
     Role: "Full Stack Developer",
     Status: "Live",
   },
@@ -482,7 +482,7 @@ const projects = [
     tagline: "MERN stack online interview platform with secure communication.",
     quickFacts: {
       Category: "Interview Platform",
-      Duration: "1 Months",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -518,7 +518,7 @@ const projects = [
     tagline: "Responsive real-time chat application powered by Socket.IO.",
     quickFacts: {
       Category: "Chat Application",
-      Duration: "1 Months",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -563,7 +563,7 @@ const projects = [
     tagline: "Secure e-commerce web application with RESTful APIs.",
     quickFacts: {
       Category: "E-Commerce",
-      Duration: " Months",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -598,7 +598,7 @@ const projects = [
     tagline: "Production-style multi-role food ordering and delivery platform.",
     quickFacts: {
       Category: "Delivery",
-      Duration: "2 Months",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -659,7 +659,7 @@ const projects = [
     tagline: "Full-stack social media web application inspired by Twitter.",
     quickFacts: {
       Category: "Social Media",
-      Duration: "3 Weeks",
+      Duration: "1 month",
       Role: "Full Stack Developer",
       Status: "Live",
     },
