@@ -518,7 +518,7 @@ const projects = [
     tagline: "Responsive real-time chat application powered by Socket.IO.",
     quickFacts: {
       Category: "Chat Application",
-      Duration: "1 month",
+      Duration: "3 weeks",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -563,7 +563,7 @@ const projects = [
     tagline: "Secure e-commerce web application with RESTful APIs.",
     quickFacts: {
       Category: "E-Commerce",
-      Duration: "1 month",
+      Duration: "3 weeks",
       Role: "Full Stack Developer",
       Status: "Live",
     },
@@ -659,7 +659,7 @@ const projects = [
     tagline: "Full-stack social media web application inspired by Twitter.",
     quickFacts: {
       Category: "Social Media",
-      Duration: "1 month",
+      Duration: "3 weeks",
       Role: "Full Stack Developer",
       Status: "Live",
     },
