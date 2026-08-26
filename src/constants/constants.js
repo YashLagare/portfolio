@@ -380,102 +380,60 @@ const projects = [
   },
 
   {
-  slug: "connectify",
-  tagline:
-    "Enterprise-grade real-time collaboration platform with AI, messaging, video calls, and audio huddles.",
+    slug: "connectify",
+    tagline:
+      "Enterprise-grade real-time collaboration platform with AI, messaging, video calls, and audio huddles.",
 
-  quickFacts: {
-    Category: "Enterprise Collaboration Platform",
-    Duration: "1 month",
-    Role: "Full Stack Developer",
-    Status: "Live",
+    quickFacts: {
+      Category: "Enterprise Collaboration Platform",
+      Duration: "1 month",
+      Role: "Full Stack Developer",
+      Status: "Live",
+    },
+
+    name: "Connectify",
+
+    description:
+      "Connectify is an enterprise-grade real-time collaboration platform built with React, Express, MongoDB, Clerk, Stream Chat, and Stream Video. It enables secure team communication through real-time messaging, direct messages, public and private channels, AI-powered thread summarization, Discord-style audio huddles, HD video conferencing, Command Palette search, custom user status, dark/light themes, image lightbox, and responsive glassmorphic UI. Inngest automates user synchronization between Clerk, MongoDB, and Stream, delivering a scalable, production-ready collaboration experience.",
+
+    features: [
+      "Secure authentication and protected routes using Clerk.",
+      "Real-time messaging powered by Stream Chat with unread message indicators.",
+      "Public & private channels with member invitations and management.",
+      "One-to-one direct messaging with presence indicators.",
+      "Discord-style 1-click Audio Huddles with live waveform animations.",
+      "High-definition video conferencing powered by Stream Video.",
+      "AI channel & thread summarization with action-item extraction.",
+      "Command Palette (Ctrl+K / Cmd+K) for quick navigation and search.",
+      "Custom user status with emoji presets and real-time presence.",
+      "Pinned messages, threaded conversations, and interactive channel management.",
+      "Full-screen image lightbox with zoom, reset, and download support.",
+      "Dark & Light theme engine with premium glassmorphism UI.",
+      "Web Audio API sound effects for messages, notifications, and calls.",
+      "Automatic user synchronization using Inngest event-driven workflows.",
+      "Protected backend APIs with Clerk authentication middleware.",
+      "Responsive enterprise dashboard optimized for desktop and mobile devices.",
+    ],
+
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Express.js", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "Clerk", color: "orange-text-gradient" },
+      { name: "Stream Chat", color: "blue-text-gradient" },
+      { name: "Stream Video", color: "green-text-gradient" },
+      { name: "Inngest", color: "pink-text-gradient" },
+      { name: "Tailwind CSS", color: "orange-text-gradient" },
+      { name: "Framer Motion", color: "blue-text-gradient" },
+      { name: "TanStack Query", color: "green-text-gradient" },
+    ],
+
+    image: connectify,
+
+    source_code_link: "https://github.com/YashLagare/Connectify",
+
+    live_link: "https://connectify-frontend-alpha.vercel.app/auth",
   },
-
-  name: "Connectify",
-
-  description:
-    "Connectify is an enterprise-grade real-time collaboration platform built with React, Express, MongoDB, Clerk, Stream Chat, and Stream Video. It enables secure team communication through real-time messaging, direct messages, public and private channels, AI-powered thread summarization, Discord-style audio huddles, HD video conferencing, Command Palette search, custom user status, dark/light themes, image lightbox, and responsive glassmorphic UI. Inngest automates user synchronization between Clerk, MongoDB, and Stream, delivering a scalable, production-ready collaboration experience.",
-
-  features: [
-    "Secure authentication and protected routes using Clerk.",
-    "Real-time messaging powered by Stream Chat with unread message indicators.",
-    "Public & private channels with member invitations and management.",
-    "One-to-one direct messaging with presence indicators.",
-    "Discord-style 1-click Audio Huddles with live waveform animations.",
-    "High-definition video conferencing powered by Stream Video.",
-    "AI channel & thread summarization with action-item extraction.",
-    "Command Palette (Ctrl+K / Cmd+K) for quick navigation and search.",
-    "Custom user status with emoji presets and real-time presence.",
-    "Pinned messages, threaded conversations, and interactive channel management.",
-    "Full-screen image lightbox with zoom, reset, and download support.",
-    "Dark & Light theme engine with premium glassmorphism UI.",
-    "Web Audio API sound effects for messages, notifications, and calls.",
-    "Automatic user synchronization using Inngest event-driven workflows.",
-    "Protected backend APIs with Clerk authentication middleware.",
-    "Responsive enterprise dashboard optimized for desktop and mobile devices.",
-  ],
-
-  tags: [
-    { name: "React", color: "blue-text-gradient" },
-    { name: "Express.js", color: "green-text-gradient" },
-    { name: "MongoDB", color: "pink-text-gradient" },
-    { name: "Clerk", color: "orange-text-gradient" },
-    { name: "Stream Chat", color: "blue-text-gradient" },
-    { name: "Stream Video", color: "green-text-gradient" },
-    { name: "Inngest", color: "pink-text-gradient" },
-    { name: "Tailwind CSS", color: "orange-text-gradient" },
-    { name: "Framer Motion", color: "blue-text-gradient" },
-    { name: "TanStack Query", color: "green-text-gradient" },
-  ],
-
-  image: connectify,
-
-  source_code_link: "https://github.com/YashLagare/Connectify",
-
-  live_link: "https://connectify-frontend-alpha.vercel.app/auth",
-},
-
-  // {
-  //   slug: "connectify",
-  //   tagline: "Real-time communication platform for messaging and video calls.",
-  //   quickFacts: {
-  //     Category: "Real-time Communication",
-  //     Duration: "1 Month",
-  //     Role: "Full Stack Developer",
-  //     Status: "Live",
-  //   },
-  //   name: "Connectify",
-  //   description:
-  //     "Connectify is a full-stack real-time communication platform built with React, Express, MongoDB, Clerk, and Stream, enabling teams to collaborate through instant messaging and video calls. The application provides secure authentication, real-time chat, direct messaging, channel management, and high-quality video conferencing. Stream Chat and Stream Video power seamless real-time interactions, while Inngest automates user lifecycle synchronization between Clerk, MongoDB, and Stream services. A modern responsive interface ensures a smooth collaboration experience across desktop and mobile devices.",
-
-  //   features: [
-  //     "Secure authentication and user management using Clerk.",
-  //     "Real-time messaging powered by Stream Chat.",
-  //     "One-to-one direct messaging with unread message indicators.",
-  //     "Public and private channel creation with member management.",
-  //     "Invite users to channels and manage channel memberships.",
-  //     "Pinned messages and interactive threaded conversations.",
-  //     "High-quality video calling powered by Stream Video.",
-  //     "Automatic user synchronization using Inngest event-driven workflows.",
-  //     "Protected backend APIs with Clerk authentication middleware.",
-  //     "Responsive modern UI optimized for desktop and mobile devices.",
-  //   ],
-
-  //   tags: [
-  //     { name: "React", color: "blue-text-gradient" },
-  //     { name: "Express.js", color: "green-text-gradient" },
-  //     { name: "MongoDB", color: "pink-text-gradient" },
-  //     { name: "Clerk", color: "orange-text-gradient" },
-  //     { name: "Stream Chat", color: "blue-text-gradient" },
-  //     { name: "Stream Video", color: "green-text-gradient" },
-  //     { name: "Inngest", color: "pink-text-gradient" },
-  //     { name: "Tailwind CSS", color: "orange-text-gradient" },
-  //   ],
-
-  //   image: connectify,
-  //   source_code_link: "https://github.com/YashLagare/Connectify",
-  //   live_link: "https://connectify-frontend-alpha.vercel.app/auth",
-  // },
 
   {
     slug: "devscreen",
