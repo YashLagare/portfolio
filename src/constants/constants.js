@@ -617,7 +617,7 @@ const projects = [
     tagline: "Full-stack social media web application inspired by Twitter.",
     quickFacts: {
       Category: "Social Media",
-      Duration: "3 weeks",
+      Duration: "1 week",
       Role: "Full Stack Developer",
       Status: "Live",
     },
