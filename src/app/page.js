@@ -1,4 +1,13 @@
-import { About, Certificates, Contact, Experience, Hero, Navbar, Tech, Works } from "@/components";
+import {
+  About,
+  Certificates,
+  Contact,
+  Experience,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+} from "@/components";
 import dynamic from "next/dynamic";
 
 export default function Home() {
