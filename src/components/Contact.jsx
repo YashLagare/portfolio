@@ -97,7 +97,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Validate all fields and collect errors
     const nameError = validateName(form.name);
     const emailError = validateEmail(form.email);
@@ -117,7 +117,7 @@ const Contact = () => {
     if (nameError || emailError || subjectError || messageError) {
       return;
     }
-    
+
     setLoading(true);
     try {
       const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
@@ -177,9 +177,8 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                errors.name ? "ring-2 ring-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.name ? "ring-2 ring-red-500" : ""
+                }`}
             />
             {errors.name && (
               <span className='text-red-500 text-sm mt-2'>{errors.name}</span>
@@ -193,9 +192,8 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                errors.email ? "ring-2 ring-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.email ? "ring-2 ring-red-500" : ""
+                }`}
             />
             {errors.email && (
               <span className='text-red-500 text-sm mt-2'>{errors.email}</span>
@@ -209,9 +207,8 @@ const Contact = () => {
               value={form.subject}
               onChange={handleChange}
               placeholder="What's this about?"
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                errors.subject ? "ring-2 ring-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.subject ? "ring-2 ring-red-500" : ""
+                }`}
             />
             {errors.subject && (
               <span className='text-red-500 text-sm mt-2'>{errors.subject}</span>
@@ -225,9 +222,8 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                errors.message ? "ring-2 ring-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.message ? "ring-2 ring-red-500" : ""
+                }`}
             />
             {errors.message && (
               <span className='text-red-500 text-sm mt-2'>{errors.message}</span>

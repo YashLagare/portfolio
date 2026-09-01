@@ -1,17 +1,16 @@
 'use client';
 
-import React from 'react';
+import { motion } from "framer-motion";
 import Link from 'next/link';
 import { FaArrowLeft, FaArrowRight, FaCheckCircle } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const ProjectDetails = ({ project, previousProject, nextProject }) => {
   return (
     <div className="w-full flex flex-col gap-16 mt-16">
-      
+
       {/* Quick Facts Section */}
       {project.quickFacts && (
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -79,7 +78,7 @@ const ProjectDetails = ({ project, previousProject, nextProject }) => {
         </h2>
         <div className="flex flex-wrap gap-4 max-w-4xl">
           {project.tags.map((tag) => (
-            <div 
+            <div
               key={`detail-${tag.name}`}
               className="flex items-center gap-2 px-6 py-3 rounded-full bg-tertiary border border-white/10 hover:border-white/30 transition-colors duration-300"
             >
@@ -98,7 +97,7 @@ const ProjectDetails = ({ project, previousProject, nextProject }) => {
         className="mt-12 pt-12 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-8"
       >
         {previousProject ? (
-          <Link 
+          <Link
             href={`/projects/${previousProject.slug}`}
             className="flex items-center gap-4 group w-full sm:w-auto"
           >
@@ -113,7 +112,7 @@ const ProjectDetails = ({ project, previousProject, nextProject }) => {
         ) : <div className="hidden sm:block w-[200px]"></div>}
 
         {nextProject ? (
-          <Link 
+          <Link
             href={`/projects/${nextProject.slug}`}
             className="flex items-center gap-4 group w-full sm:w-auto sm:text-right flex-row-reverse sm:flex-row"
           >

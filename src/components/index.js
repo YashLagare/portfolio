@@ -8,5 +8,16 @@ import Navbar from "./Navbar";
 import Tech from "./Tech";
 import Works from "./Works";
 
-export { About, Certificates, Contact, EarthCanvas, Experience, Hero, Navbar, StarsCanvas, Tech, Works };
+export {
+    About,
+    Certificates,
+    Contact,
+    EarthCanvas,
+    Experience,
+    Hero,
+    Navbar,
+    StarsCanvas,
+    Tech,
+    Works
+};
 
