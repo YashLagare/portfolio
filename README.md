@@ -117,4 +117,4 @@ This portfolio uses **EmailJS** for handling contact form submissions. When some
 - Upon valid submission, EmailJS sends the message to your configured email
 - Toast notifications confirm success or show errors
 
-Written By YASH
+Written By Yash
