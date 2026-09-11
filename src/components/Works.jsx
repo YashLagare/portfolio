@@ -10,7 +10,7 @@ import { SectionWrapper } from "./hoc";
 import ProjectCard from "./ProjectCard";
 
 const featuredProjects = [
-  "FlowForge – Workflow Automation Platform",
+  "FlowForge",
   "InvoicePilot",
   "PixelForge AI Studio",
   "Connectify",
