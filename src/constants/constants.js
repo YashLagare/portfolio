@@ -5,6 +5,7 @@ import {
   css,
   devcanvas,
   Devscreen,
+  Docsy,
   Ecom,
   express,
   FlowForge,
@@ -231,6 +232,60 @@ const projects = [
     source_code_link: "https://github.com/YashLagare/FlowForge",
 
     live_link: "https://flow-forge-ebon.vercel.app/",
+  },
+
+  {
+    slug: "docsy",
+
+    tagline:
+      "Multi-tenant document workspace for asking AI-assisted questions against selected documents with source-referenced answers.",
+
+    quickFacts: {
+      Category: "AI Document SaaS",
+      Duration: "1 month",
+      Role: "Full Stack Developer",
+      Status: "Production Ready",
+    },
+
+    name: "Docsy",
+
+    description:
+      "Docsy is a multi-tenant document workspace built with Next.js, React, TypeScript, PostgreSQL, and Prisma that helps users organize documents and understand long-form content through AI-assisted question answering. Users can create isolated workspaces, upload and manage supported documents, select specific sources for conversations, and receive streamed AI-generated answers with source references that make important information easier to verify. The platform includes workspace-scoped document and chat management, authentication and organization membership, usage tracking, search, account management, subscription-based entitlements, and Stripe billing. Docsy focuses on making document-based AI interactions more transparent by helping users connect generated answers back to their original sources.",
+
+    features: [
+      "Multi-tenant workspace architecture with isolated documents, chats, members, usage, and subscriptions.",
+      "Upload and manage PDF, DOCX, TXT, and Markdown documents within workspaces.",
+      "Create AI-assisted conversations using selected documents as sources.",
+      "Stream AI-generated responses for a responsive document Q&A experience.",
+      "Source references attached to answers to make important information easier to verify.",
+      "Workspace-scoped document and conversation search.",
+      "Secure authentication and organization membership management using Better Auth.",
+      "Usage tracking and server-controlled subscription entitlements.",
+      "Stripe integration for subscription billing and plan management.",
+      "Transactional email workflows powered by Resend.",
+      "PostgreSQL data persistence using Neon and Prisma ORM.",
+      "Responsive SaaS dashboard built with Next.js, React, TypeScript, and Tailwind CSS.",
+    ],
+
+    tags: [
+      { name: "Next.js 16", color: "blue-text-gradient" },
+      { name: "React 19", color: "green-text-gradient" },
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "PostgreSQL", color: "orange-text-gradient" },
+      { name: "Prisma", color: "blue-text-gradient" },
+      { name: "Neon", color: "green-text-gradient" },
+      { name: "Better Auth", color: "pink-text-gradient" },
+      { name: "AI Integration", color: "green-text-gradient" },
+      { name: "Stripe", color: "blue-text-gradient" },
+      { name: "Resend", color: "pink-text-gradient" },
+      { name: "Tailwind CSS", color: "orange-text-gradient" },
+    ],
+
+    image: Docsy,
+
+    source_code_link: "https://github.com/YashLagare/Docsy",
+
+    live_link: "https://docsy-smoky.vercel.app/",
   },
 
   {

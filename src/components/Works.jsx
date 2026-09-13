@@ -11,6 +11,7 @@ import ProjectCard from "./ProjectCard";
 
 const featuredProjects = [
   "FlowForge",
+  "Docsy",
   "InvoicePilot",
   "PixelForge AI Studio",
   "Connectify",
