@@ -13,11 +13,10 @@ const featuredProjects = [
   "FlowForge",
   "Docsy",
   "InvoicePilot",
-  "PixelForge AI Studio",
   "Connectify",
   "QuickBite",
+  "PixelForge AI Studio",
   "DevCanvas",
-  "Chatzy",
 ];
 
 const Works = () => {
